@@ -1,4 +1,4 @@
-// 0/RVS21.831F/127/211/127/402.6/257746
+// 0/RVS21.831F/127/211/127/402.6/197139
 #define E_CAT_00_TEXT "Heure"
 #define S501_0_TEXT "Cycle de chauffage"
 #define S516_0_TEXT "Valeurs par défaut progr. Horaire"
@@ -143,6 +143,7 @@
 #define S3119_0_TEXT "Jour relève fact. Perf. ann"
 #define S3120_0_TEXT "COP annuel 1"
 #define S3120P1_0_TEXT "Jour relève 1"
+#define S3121_0_TEXT "Chaleur fournie, chauffag1"
 #define S3122_0_TEXT "Chaleur fournie, ECS1"
 #define S3123_0_TEXT "Refroidissement fourni 1"
 #define S3124_0_TEXT "Energie utilisée chauffage1"
@@ -2107,43 +2108,43 @@
 
 typedef enum
 {
-  CAT_0,
-  CAT_1,
-  CAT_2,
-  CAT_3,
-  CAT_4,
-  CAT_5,
-  CAT_6,
-  CAT_7,
-  CAT_8,
-  CAT_9,
-  CAT_10,
-  CAT_11,
-  CAT_12,
-  CAT_13,
-  CAT_14,
-  CAT_15,
-  CAT_16,
-  CAT_17,
-  CAT_18,
-  CAT_19,
-  CAT_20,
-  CAT_21,
-  CAT_22,
-  CAT_23,
-  CAT_24,
-  CAT_25,
-  CAT_26,
-  CAT_27,
-  CAT_28,
-  CAT_29,
-  CAT_30,
-  CAT_31,
-  CAT_32,
-  CAT_USER_DEFINED,
-  CAT_PPS,
-  CAT_USERSENSORS,
-  CAT_UNKNOWN
+    CAT_0,
+    CAT_1,
+    CAT_2,
+    CAT_3,
+    CAT_4,
+    CAT_5,
+    CAT_6,
+    CAT_7,
+    CAT_8,
+    CAT_9,
+    CAT_10,
+    CAT_11,
+    CAT_12,
+    CAT_13,
+    CAT_14,
+    CAT_15,
+    CAT_16,
+    CAT_17,
+    CAT_18,
+    CAT_19,
+    CAT_20,
+    CAT_21,
+    CAT_22,
+    CAT_23,
+    CAT_24,
+    CAT_25,
+    CAT_26,
+    CAT_27,
+    CAT_28,
+    CAT_29,
+    CAT_30,
+    CAT_31,
+    CAT_32,
+    CAT_USER_DEFINED,
+    CAT_PPS,
+    CAT_USERSENSORS,
+    CAT_UNKNOWN
 } category_t;
 
 const float ENUM_CAT_NR[] PROGMEM_LATEST = {
@@ -2154,17 +2155,17 @@ const float ENUM_CAT_NR[] PROGMEM_LATEST = {
     561, 576,
     601, 616,
     642, 648,
-    652, 658,
-    700, 900,
-    901, 969,
-    1000, 1200,
-    1201, 1269,
-    1300, 1301.2,
-    1600, 1680,
-    1952, 1980,
-    2055, 2080,
-    2776, 2920,
-    3090, 3511,
+    652, 700,
+    700, 901,
+    902, 1000,
+    1000, 1201,
+    1202, 1301,
+    1301.1, 1600,
+    1600, 1952,
+    1954, 2055,
+    2056, 2776,
+    2777, 3090,
+    3092, 3511,
     3512, 3690,
     3691, 3810,
     3811, 4709,
@@ -2229,7 +2230,6 @@ const char E648_0[] PROGMEM_LATEST = {
     "\x02 " E648_0_02_TEXT      // Confort
 };
 
-#define E658_0 E648_0
 // 700 - Mode de fonctionnement
 const char E700_0[] PROGMEM_LATEST = {
     "\x00 " E700_0_00_TEXT "\0" // Mode protection
@@ -3996,7 +3996,6 @@ const char S601_0[] PROGMEM = S601_0_TEXT;       // Cycle du programme
 const char S642_0[] PROGMEM = S642_0_TEXT;       // Début Congé
 const char S648_0[] PROGMEM = S648_0_TEXT;       // Niveau fonctionnement pendant vacances
 #define S652_0 S642_0                            // Début Congé
-#define S658_0 S648_0                            // Niveau fonctionnement pendant vacances
 const char S700_0[] PROGMEM = S700_0_TEXT;       // Mode de fonctionnement
 const char S701_0[] PROGMEM = S701_0_TEXT;       // Plus chaud/froid
 const char S701P1_0[] PROGMEM = S701P1_0_TEXT;   // Temporarily warmer
@@ -4203,6 +4202,7 @@ const char S3116_0[] PROGMEM = S3116_0_TEXT;     // COP
 const char S3119_0[] PROGMEM = S3119_0_TEXT;     // Jour relève fact. Perf. ann
 const char S3120_0[] PROGMEM = S3120_0_TEXT;     // COP annuel 1
 const char S3120P1_0[] PROGMEM = S3120P1_0_TEXT; // Jour relève 1
+const char S3121_0[] PROGMEM = S3121_0_TEXT;     // Chaleur fournie, chauffag1
 const char S3122_0[] PROGMEM = S3122_0_TEXT;     // Chaleur fournie, ECS1
 const char S3123_0[] PROGMEM = S3123_0_TEXT;     // Refroidissement fourni 1
 const char S3124_0[] PROGMEM = S3124_0_TEXT;     // Energie utilisée chauffage1
@@ -4837,7 +4837,6 @@ const char STR_GF[] PROGMEM = "Famille d'appareil";
 const char STR_GV[] PROGMEM = "Variante d'appareil";
 const char STR_OV[] PROGMEM = "Version OV d'appareil";
 const char STR_SAVE[] PROGMEM = "Enregistrer paramètres";
-const char S_VACEND[] PROGMEM = "Fin Congé";
 
 PROGMEM_LATE const cmd_t cmdtbl[] = {
     {0x053D000B, VT_DATETIME, 0, S0, 0, NULL, DEFAULT_FLAG, 255, 255},
@@ -4883,135 +4882,132 @@ PROGMEM_LATE const cmd_t cmdtbl[] = {
     {0x053D0AB8, VT_TIMEPROG, 605, S_WD_5, 0, NULL, DEFAULT_FLAG, 211, 127},
     {0x053D0AB9, VT_TIMEPROG, 606, S_WD_6, 0, NULL, DEFAULT_FLAG, 211, 127},
     {0x053D0ABA, VT_TIMEPROG, 607, S_WD_7, 0, NULL, DEFAULT_FLAG, 211, 127},
-    {0x053D082B, VT_YESNO, 616, S616_0, sizeof(ENUM_YESNO), ENUM_YESNO, DEFAULT_FLAG, 211, 127},       // Valeurs par défaut progr. Horaire
-    {0x053D09C4, VT_VACATIONPROG, 642, S642_0, 0, NULL, DEFAULT_FLAG, 211, 127},                       // Début Congé
-    {0x053D09C5, VT_VACATIONPROG, 643, S_VACEND, 0, NULL, DEFAULT_FLAG, 211, 127},                     // Fin Congé
-    {0x2D3D04C2, VT_ENUM, 648, S648_0, sizeof(E648_0), E648_0, DEFAULT_FLAG, 211, 127},                // Niveau fonctionnement pendant vacances
-    {0x063D09C4, VT_VACATIONPROG, 652, S652_0, 0, NULL, DEFAULT_FLAG, 211, 127},                       // Début Congé
-    {0x063D09C5, VT_VACATIONPROG, 653, S_VACEND, 0, NULL, DEFAULT_FLAG, 211, 127},                     // Fin Congé
-    {0x2E3D04C2, VT_ENUM, 658, S658_0, sizeof(E658_0), E658_0, DEFAULT_FLAG, 211, 127},                // Niveau fonctionnement pendant vacances
-    {0x2D3D0574, VT_ENUM, 700, S700_0, sizeof(E700_0), E700_0, DEFAULT_FLAG, 211, 127},                // Mode de fonctionnement
-    {0x2D3D0574, VT_ENUM, 700, S_BA_TEXT, sizeof(E_BA_HK), E_BA_HK, DEFAULT_FLAG, 255, 255},           // Mode de fonctionnement
-    {0x053D1A83, VT_ENUM, 701, S701_0, sizeof(E701_0), E701_0, DEFAULT_FLAG, 211, 127},                // Plus chaud/froid
-    {0x053D1A91, VT_ENUM, 701.1, S701P1_0, sizeof(E701P1_0), E701P1_0, DEFAULT_FLAG, 211, 127},        // Temporarily warmer
-    {0x053D1A92, VT_ENUM, 701.2, S701P2_0, sizeof(E701P2_0), E701P2_0, DEFAULT_FLAG, 211, 127},        // Temporarily cooler
-    {0x2D3D058E, VT_TEMP, 710, S710_0, 0, NULL, DEFAULT_FLAG, 211, 127},                               // Consigne de confort
-    {0x2D3D0590, VT_TEMP, 712, S712_0, 0, NULL, DEFAULT_FLAG, 211, 127},                               // Consigne régime REDUIT
-    {0x2D3D0592, VT_TEMP, 714, S714_0, 0, NULL, DEFAULT_FLAG, 211, 127},                               // Consigne de protection temp. amb. CR1
-    {0x2D3D05A5, VT_TEMP, 716, S716_0, 0, NULL, DEFAULT_FLAG, 211, 127},                               // Consigne de confort Maximum
-    {0x2D3D05F6, VT_FP02, 720, S720_0, 0, NULL, DEFAULT_FLAG, 211, 127},                               // Courbe de chauffe
-    {0x2D3D0610, VT_TEMP, 721, S721_0, 0, NULL, DEFAULT_FLAG, 211, 127},                               // Translation de la courbe de chauffe
-    {0x2D3D05FD, VT_TEMP_N, 730, S730_0, 0, NULL, DEFAULT_FLAG, 211, 127},                             // Température de commutation été/hiver
-    {0x2D3D0640, VT_TEMP_N, 732, S732_0, 0, NULL, FL_OEM, 211, 127},                                   // Limite de chauffe ECO
-    {0x053D1214, VT_YESNO, 733, S733_0, sizeof(ENUM_YESNO), ENUM_YESNO, FL_OEM, 211, 127},             // Prolong limite chauff jour
-    {0x213D0663, VT_TEMP, 740, S740_0, 0, NULL, DEFAULT_FLAG, 211, 127},                               // Limitation mini de température de départ
-    {0x213D0662, VT_TEMP, 741, S741_0, 0, NULL, DEFAULT_FLAG, 211, 127},                               // Limitation maxi de température de départ
-    {0x2D3D0603, VT_PERCENT, 750, S750_0, 0, NULL, DEFAULT_FLAG, 211, 127},                            // Influence de la température ambiante
-    {0x2D3D0614, VT_TEMP_N, 760, S760_0, 0, NULL, DEFAULT_FLAG, 211, 127},                             // Point de coupure différentiel temp. Ambiante
-    {0x2D3D0602, VT_TEMP_N, 770, S770_0, 0, NULL, FL_OEM, 211, 127},                                   // Surélévation consigne d'ambiance
-    {0x2D3D05E8, VT_ENUM, 780, S780_0, sizeof(E780_0), E780_0, DEFAULT_FLAG, 211, 127},                // Réduction rapide
-    {0x2D3D0607, VT_MINUTES, 790, S790_0, 0, NULL, DEFAULT_FLAG, 211, 127},                            // Temps de mise en régime maximal
-    {0x2D3D0609, VT_MINUTES, 791, S791_0, 0, NULL, DEFAULT_FLAG, 211, 127},                            // Optimisation heure d'arrêt  Anticipation maxi
-    {0x2D3D0639, VT_GRADIENT, 794, S794_0, 0, NULL, FL_OEM, 211, 127},                                 // Gradient mise en régime des 2 générateurs
-    {0x2D3D059E, VT_TEMP_N, 800, S800_0, 0, NULL, DEFAULT_FLAG, 211, 127},                             // Début relèvement consigne réduite de temp. amb.
-    {0x2D3D059D, VT_TEMP, 801, S801_0, 0, NULL, DEFAULT_FLAG, 211, 127},                               // Fin relèvement consigne réduite de temp. amb.
-    {0x213D063A, VT_ONOFF, 810, S810_0, sizeof(ENUM_ONOFF), ENUM_ONOFF, FL_OEM, 211, 127},             // Hors-gel installat.pour pompe circuit chauffage
-    {0x213D0674, VT_ONOFF, 820, S820_0, sizeof(ENUM_ONOFF), ENUM_ONOFF, FL_OEM, 211, 127},             // Protection contre surchauffe du CC à pompe
-    {0x213D065D, VT_TEMP, 830, S830_0, 0, NULL, DEFAULT_FLAG, 211, 127},                               // Surélévation temp. mélangeur circuit de chauffe
-    {0x213D065A, VT_SECONDS_WORD, 834, S834_0, 0, NULL, DEFAULT_FLAG, 211, 127},                       // Durée de marche servomoteur circuit de chauffe
-    {0x2D3D067B, VT_ENUM, 850, S850_0, sizeof(E850_0), E850_0, DEFAULT_FLAG, 211, 127},                // Fonction de séchage dalle
-    {0x2D3D068A, VT_TEMP, 851, S851_0, 0, NULL, DEFAULT_FLAG, 211, 127},                               // Consigne manuelle séchage chapes de béton
-    {0x2D3D067D, VT_TEMP, 855, S855_0, 0, NULL, FL_RONLY, 211, 127},                                   // Cons. de temp. de départ séchage plancher plâtre
-    {0x2D3D0DF2, VT_BYTE, 856, S856_0, 0, NULL, FL_RONLY, 211, 127},                                   // Séchage dalle jour
-    {0x213D0B43, VT_BYTE, 857, S857_0, 0, NULL, FL_RONLY, 211, 127},                                   // Jours de séchage accomplis
-    {0x053D07BE, VT_ENUM, 900, S900_0, sizeof(E900_0), E900_0, DEFAULT_FLAG, 211, 127},                // Commutation de régime
-    {0x653D0A26, VT_ENUM, 901, S901_0, sizeof(E901_0), E901_0, DEFAULT_FLAG, 211, 127},                // Mode de fonctionnement
-    {0x653D0A1A, VT_TEMP, 902, S902_0, 0, NULL, DEFAULT_FLAG, 211, 127},                               // Consigne de confort
-    {0x653D0A1A, VT_TEMP, 902.1, S902P1_0, 0, NULL, DEFAULT_FLAG, 211, 127},                           // Consigne confort temp. ambiante CR1
-    {0x653D0A1A, VT_TEMP, 902.2, S902P2_0, 0, NULL, DEFAULT_FLAG, 211, 127},                           // Consigne confort temp. ambiante CR1
-    {0x653D1943, VT_TEMP, 903, S903_0, 0, NULL, DEFAULT_FLAG, 211, 127},                               // Consigne régime REDUIT
-    {0x653D0A80, VT_TEMP, 904, S904_0, 0, NULL, FL_OEM, 211, 127},                                     // Consigne de protection temp. amb. CR1
-    {0x653D1944, VT_TEMP, 905, S905_0, 0, NULL, FL_OEM, 211, 127},                                     // Consigne confort minimum
-    {0x653D0A20, VT_TEMP, 908, S908_0, 0, NULL, DEFAULT_FLAG, 211, 127},                               // Consigne départ pour temp. ext. 25°C CR1
-    {0x653D0A21, VT_TEMP, 909, S909_0, 0, NULL, DEFAULT_FLAG, 211, 127},                               // Consigne départ pour temp. ext. 35°C CR1
-    {0x653D0A22, VT_TEMP_N, 912, S912_0, 0, NULL, DEFAULT_FLAG, 211, 127},                             // Limite refroidissement  pour temp. ext. CR 1
-    {0x693D0A75, VT_HOURS_SHORT_N, 913, S913_0, 0, NULL, DEFAULT_FLAG, 211, 127},                      // Durée blocage ap chau/rafr
-    {0x653D1940, VT_TEMP_N, 914, S914_0, 0, NULL, FL_OEM, 211, 127},                                   // Limite rafraîch journalière
-    {0x653D0A25, VT_TEMP, 918, S918_0, 0, NULL, DEFAULT_FLAG, 211, 127},                               // Début compensation d'été pour temp. ext. CR1
-    {0x653D0A24, VT_TEMP, 919, S919_0, 0, NULL, DEFAULT_FLAG, 211, 127},                               // Fin compensation d'été pour temp. ext. CR1
-    {0x653D0A1B, VT_TEMP_N, 920, S920_0, 0, NULL, DEFAULT_FLAG, 211, 127},                             // Relèvement consigne compens. d'été CR1
-    {0x653D0A1E, VT_TEMP, 923, S923_0, 0, NULL, DEFAULT_FLAG, 211, 127},                               // Consigne départ min. pour temp. ext. 25°C CR1
-    {0x653D0A1F, VT_TEMP, 924, S924_0, 0, NULL, DEFAULT_FLAG, 211, 127},                               // Consigne départ min. pour temp. ext. 35°C CR1
-    {0x653D0A27, VT_PERCENT, 928, S928_0, 0, NULL, DEFAULT_FLAG, 211, 127},                            // Influence de la température ambiante
-    {0x653D0A23, VT_TEMP_N, 932, S932_0, 0, NULL, DEFAULT_FLAG, 211, 127},                             // Point de coupure différentiel temp. Ambiante
-    {0x653D0B6F, VT_PERCENT, 933, S933_0, 0, NULL, FL_OEM, 211, 127},                                  // Limite froid régulateur circuit refroidissement1
-    {0x693D0A70, VT_ONOFF, 937, S937_0, sizeof(ENUM_ONOFF), ENUM_ONOFF, FL_OEM, 211, 127},             // PAG de l'installation pour pompe CR1
-    {0x693D0B65, VT_TEMP, 938, S938_0, 0, NULL, DEFAULT_FLAG, 211, 127},                               // Sous-refrodissement vanne mélange CR 1
-    {0x693D0A7D, VT_SECONDS_WORD, 941, S941_0, 0, NULL, DEFAULT_FLAG, 211, 127},                       // Durée de marche servomoteur circuit de chauffe
-    {0x653D0B69, VT_YESNO, 963, S963_0, sizeof(ENUM_YESNO), ENUM_YESNO, DEFAULT_FLAG, 211, 127},       // Avec prérégulateur/pompe d'alimentation
-    {0x053D0B7A, VT_ENUM, 969, S969_0, sizeof(E969_0), E969_0, FL_OEM, 211, 127},                      // Commutation de régime
-    {0x2E3D0574, VT_ENUM, 1000, S1000_0, sizeof(E1000_0), E1000_0, DEFAULT_FLAG, 211, 127},            // Mode de fonctionnement
-    {0x2E3D0574, VT_ENUM, 1000, S_BA_TEXT, sizeof(E_BA_HK), E_BA_HK, DEFAULT_FLAG, 255, 255},          // Mode de fonctionnement
-    {0x063D1A83, VT_ENUM, 1001, S1001_0, sizeof(E1001_0), E1001_0, DEFAULT_FLAG, 211, 127},            // Plus chaud/froid
-    {0x063D1A91, VT_ENUM, 1001.1, S1001P1_0, sizeof(E1001P1_0), E1001P1_0, DEFAULT_FLAG, 211, 127},    // Temporarily warmer
-    {0x063D1A92, VT_ENUM, 1001.2, S1001P2_0, sizeof(E1001P2_0), E1001P2_0, DEFAULT_FLAG, 211, 127},    // Temporarily cooler
-    {0x2E3D058E, VT_TEMP, 1010, S1010_0, 0, NULL, DEFAULT_FLAG, 211, 127},                             // Consigne de confort
-    {0x2E3D0590, VT_TEMP, 1012, S1012_0, 0, NULL, DEFAULT_FLAG, 211, 127},                             // Consigne régime REDUIT
-    {0x2E3D0592, VT_TEMP, 1014, S1014_0, 0, NULL, DEFAULT_FLAG, 211, 127},                             // Consigne de protection temp. amb. CR1
-    {0x2E3D05A5, VT_TEMP, 1016, S1016_0, 0, NULL, DEFAULT_FLAG, 211, 127},                             // Consigne de confort Maximum
-    {0x2E3D05F6, VT_FP02, 1020, S1020_0, 0, NULL, DEFAULT_FLAG, 211, 127},                             // Courbe de chauffe
-    {0x2E3D0610, VT_TEMP, 1021, S1021_0, 0, NULL, DEFAULT_FLAG, 211, 127},                             // Translation de la courbe de chauffe
-    {0x2E3D05FD, VT_TEMP_N, 1030, S1030_0, 0, NULL, DEFAULT_FLAG, 211, 127},                           // Température de commutation été/hiver
-    {0x2E3D0640, VT_TEMP_N, 1032, S1032_0, 0, NULL, FL_OEM, 211, 127},                                 // Limite de chauffe ECO
-    {0x063D1214, VT_YESNO, 1033, S1033_0, sizeof(ENUM_YESNO), ENUM_YESNO, FL_OEM, 211, 127},           // Prolong limite chauff jour
-    {0x223D0663, VT_TEMP, 1040, S1040_0, 0, NULL, DEFAULT_FLAG, 211, 127},                             // Limitation mini de température de départ
-    {0x223D0662, VT_TEMP, 1041, S1041_0, 0, NULL, DEFAULT_FLAG, 211, 127},                             // Limitation maxi de température de départ
-    {0x2E3D0603, VT_PERCENT, 1050, S1050_0, 0, NULL, DEFAULT_FLAG, 211, 127},                          // Influence de la température ambiante
-    {0x2E3D0614, VT_TEMP_N, 1060, S1060_0, 0, NULL, DEFAULT_FLAG, 211, 127},                           // Point de coupure différentiel temp. Ambiante
-    {0x2E3D05E8, VT_ENUM, 1080, S1080_0, sizeof(E1080_0), E1080_0, DEFAULT_FLAG, 211, 127},            // Réduction rapide
-    {0x2E3D0607, VT_MINUTES, 1090, S1090_0, 0, NULL, DEFAULT_FLAG, 211, 127},                          // Temps de mise en régime maximal
-    {0x2E3D0609, VT_MINUTES, 1091, S1091_0, 0, NULL, DEFAULT_FLAG, 211, 127},                          // Optimisation heure d'arrêt  Anticipation maxi
-    {0x2E3D0639, VT_GRADIENT, 1094, S1094_0, 0, NULL, FL_OEM, 211, 127},                               // Gradient mise en régime des 2 générateurs
-    {0x2E3D059E, VT_TEMP_N, 1100, S1100_0, 0, NULL, DEFAULT_FLAG, 211, 127},                           // Début relèvement consigne réduite de temp. amb.
-    {0x2E3D059D, VT_TEMP, 1101, S1101_0, 0, NULL, DEFAULT_FLAG, 211, 127},                             // Fin relèvement consigne réduite de temp. amb.
-    {0x223D063A, VT_ONOFF, 1110, S1110_0, sizeof(ENUM_ONOFF), ENUM_ONOFF, FL_OEM, 211, 127},           // Hors-gel installat.pour pompe circuit chauffage
-    {0x223D0674, VT_ONOFF, 1120, S1120_0, sizeof(ENUM_ONOFF), ENUM_ONOFF, FL_OEM, 211, 127},           // Protection contre surchauffe du CC à pompe
-    {0x223D065D, VT_TEMP, 1130, S1130_0, 0, NULL, DEFAULT_FLAG, 211, 127},                             // Surélévation temp. mélangeur circuit de chauffe
-    {0x223D065A, VT_SECONDS_WORD, 1134, S1134_0, 0, NULL, DEFAULT_FLAG, 211, 127},                     // Durée de marche servomoteur circuit de chauffe
-    {0x2E3D067B, VT_ENUM, 1150, S1150_0, sizeof(E1150_0), E1150_0, DEFAULT_FLAG, 211, 127},            // Fonction de séchage dalle
-    {0x2E3D068A, VT_TEMP, 1151, S1151_0, 0, NULL, DEFAULT_FLAG, 211, 127},                             // Consigne manuelle séchage chapes de béton
-    {0x2E3D0DF2, VT_BYTE, 1156, S1156_0, 0, NULL, FL_RONLY, 211, 127},                                 // Séchage dalle jour
-    {0x223D0B43, VT_BYTE, 1157, S1157_0, 0, NULL, FL_RONLY, 211, 127},                                 // Jours de séchage accomplis
-    {0x063D07BE, VT_ENUM, 1200, S1200_0, sizeof(E1200_0), E1200_0, DEFAULT_FLAG, 211, 127},            // Commutation de régime
-    {0x663D0A26, VT_ENUM, 1201, S1201_0, sizeof(E1201_0), E1201_0, DEFAULT_FLAG, 211, 127},            // Mode de fonctionnement
-    {0x663D0A1A, VT_TEMP, 1202, S1202_0, 0, NULL, DEFAULT_FLAG, 211, 127},                             // Consigne de confort
-    {0x663D1943, VT_TEMP, 1203, S1203_0, 0, NULL, DEFAULT_FLAG, 211, 127},                             // Consigne régime REDUIT
-    {0x663D0A80, VT_TEMP, 1204, S1204_0, 0, NULL, FL_OEM, 211, 127},                                   // Consigne de protection temp. amb. CR1
-    {0x663D1944, VT_TEMP, 1205, S1205_0, 0, NULL, FL_OEM, 211, 127},                                   // Consigne confort minimum
-    {0x663D0A20, VT_TEMP, 1208, S1208_0, 0, NULL, DEFAULT_FLAG, 211, 127},                             // Consigne départ pour temp. ext. 25°C CR1
-    {0x663D0A21, VT_TEMP, 1209, S1209_0, 0, NULL, DEFAULT_FLAG, 211, 127},                             // Consigne départ pour temp. ext. 35°C CR1
-    {0x663D0A22, VT_TEMP_N, 1212, S1212_0, 0, NULL, DEFAULT_FLAG, 211, 127},                           // Limite refroidissement  pour temp. ext. CR 1
-    {0x6A3D0A75, VT_HOURS_SHORT_N, 1213, S1213_0, 0, NULL, DEFAULT_FLAG, 211, 127},                    // Durée blocage ap chau/rafr
-    {0x663D1940, VT_TEMP_N, 1214, S1214_0, 0, NULL, FL_OEM, 211, 127},                                 // Limite rafraîch journalière
-    {0x663D0A25, VT_TEMP, 1218, S1218_0, 0, NULL, DEFAULT_FLAG, 211, 127},                             // Début compensation d'été pour temp. ext. CR1
-    {0x663D0A24, VT_TEMP, 1219, S1219_0, 0, NULL, DEFAULT_FLAG, 211, 127},                             // Fin compensation d'été pour temp. ext. CR1
-    {0x663D0A1B, VT_TEMP_N, 1220, S1220_0, 0, NULL, DEFAULT_FLAG, 211, 127},                           // Relèvement consigne compens. d'été CR1
-    {0x663D0A1E, VT_TEMP, 1223, S1223_0, 0, NULL, DEFAULT_FLAG, 211, 127},                             // Consigne départ min. pour temp. ext. 25°C CR1
-    {0x663D0A1F, VT_TEMP, 1224, S1224_0, 0, NULL, DEFAULT_FLAG, 211, 127},                             // Consigne départ min. pour temp. ext. 35°C CR1
-    {0x663D0A27, VT_PERCENT, 1228, S1228_0, 0, NULL, DEFAULT_FLAG, 211, 127},                          // Influence de la température ambiante
-    {0x663D0A23, VT_TEMP_N, 1232, S1232_0, 0, NULL, DEFAULT_FLAG, 211, 127},                           // Point de coupure différentiel temp. Ambiante
-    {0x663D0B6F, VT_PERCENT, 1233, S1233_0, 0, NULL, FL_OEM, 211, 127},                                // Limite froid régulateur circuit refroidissement1
-    {0x6A3D0A70, VT_ONOFF, 1237, S1237_0, sizeof(ENUM_ONOFF), ENUM_ONOFF, FL_OEM, 211, 127},           // PAG de l'installation pour pompe CR1
-    {0x6A3D0B65, VT_TEMP, 1238, S1238_0, 0, NULL, DEFAULT_FLAG, 211, 127},                             // Sous-refrodissement vanne mélange CR 1
-    {0x6A3D0A7D, VT_SECONDS_WORD, 1241, S1241_0, 0, NULL, DEFAULT_FLAG, 211, 127},                     // Durée de marche servomoteur circuit de chauffe
-    {0x663D0B69, VT_YESNO, 1263, S1263_0, sizeof(ENUM_YESNO), ENUM_YESNO, DEFAULT_FLAG, 211, 127},     // Avec prérégulateur/pompe d'alimentation
-    {0x063D0B7A, VT_ENUM, 1269, S1269_0, sizeof(E1269_0), E1269_0, FL_OEM, 211, 127},                  // Commutation de régime
-    {0x2F3D0574, VT_ENUM, 1300, S_BA_TEXT, sizeof(E_BA_HK), E_BA_HK, DEFAULT_FLAG, 255, 255},          // Mode de fonctionnement
-    {0x073D1A83, VT_ENUM, 1301, S1301_0, sizeof(E1301_0), E1301_0, DEFAULT_FLAG, 211, 127},            // Plus chaud/froid
-    {0x073D1A91, VT_ENUM, 1301.1, S1301P1_0, sizeof(E1301P1_0), E1301P1_0, DEFAULT_FLAG, 211, 127},    // Temporarily warmer
-    {0x073D1A92, VT_ENUM, 1301.2, S1301P2_0, sizeof(E1301P2_0), E1301P2_0, DEFAULT_FLAG, 211, 127},    // Temporarily cooler
-    {0x313D0571, VT_ENUM, 1600, S1600_0, sizeof(E1600_0), E1600_0, DEFAULT_FLAG, 211, 127},            // Mode de fonctionnement
-    {0x313D0571, VT_ENUM, 1600, S_BA_TEXT, sizeof(E_BA_TW), E_BA_TW, DEFAULT_FLAG, 255, 255},          // Mode de fonctionnement
+    {0x053D082B, VT_YESNO, 616, S616_0, sizeof(ENUM_YESNO), ENUM_YESNO, DEFAULT_FLAG, 211, 127}, // Valeurs par défaut progr. Horaire
+    {0x053D09C4, VT_VACATIONPROG, 642, S642_0, 0, NULL, DEFAULT_FLAG, 211, 127},                 // Début Congé
+    {0x2D3D04C2, VT_ENUM, 648, S648_0, sizeof(E648_0), E648_0, DEFAULT_FLAG, 211, 127},          // Niveau fonctionnement pendant vacances
+    {0x063D09C4, VT_VACATIONPROG, 652, S652_0, 0, NULL, DEFAULT_FLAG, 211, 127},                 // Début Congé
+    {0x2D3D0574, VT_ENUM, 700, S700_0, sizeof(E700_0), E700_0, DEFAULT_FLAG, 211, 127},          // Mode de fonctionnement
+    {0x2D3D0574, VT_ENUM, 700, S_BA_TEXT, sizeof(E_BA_HK), E_BA_HK, DEFAULT_FLAG, 255, 255},
+    {0x053D1A83, VT_ENUM, 701, S701_0, sizeof(E701_0), E701_0, DEFAULT_FLAG, 211, 127},          // Plus chaud/froid
+    {0x053D1A91, VT_ENUM, 701.1, S701P1_0, sizeof(E701P1_0), E701P1_0, DEFAULT_FLAG, 211, 127},  // Temporarily warmer
+    {0x053D1A92, VT_ENUM, 701.2, S701P2_0, sizeof(E701P2_0), E701P2_0, DEFAULT_FLAG, 211, 127},  // Temporarily cooler
+    {0x2D3D058E, VT_TEMP, 710, S710_0, 0, NULL, DEFAULT_FLAG, 211, 127},                         // Consigne de confort
+    {0x2D3D0590, VT_TEMP, 712, S712_0, 0, NULL, DEFAULT_FLAG, 211, 127},                         // Consigne régime REDUIT
+    {0x2D3D0592, VT_TEMP, 714, S714_0, 0, NULL, DEFAULT_FLAG, 211, 127},                         // Consigne de protection temp. amb. CR1
+    {0x2D3D05A5, VT_TEMP, 716, S716_0, 0, NULL, DEFAULT_FLAG, 211, 127},                         // Consigne de confort Maximum
+    {0x2D3D05F6, VT_FP02, 720, S720_0, 0, NULL, DEFAULT_FLAG, 211, 127},                         // Courbe de chauffe
+    {0x2D3D0610, VT_TEMP, 721, S721_0, 0, NULL, DEFAULT_FLAG, 211, 127},                         // Translation de la courbe de chauffe
+    {0x2D3D05FD, VT_TEMP_N, 730, S730_0, 0, NULL, DEFAULT_FLAG, 211, 127},                       // Température de commutation été/hiver
+    {0x2D3D0640, VT_TEMP_N, 732, S732_0, 0, NULL, FL_OEM, 211, 127},                             // Limite de chauffe ECO
+    {0x053D1214, VT_YESNO, 733, S733_0, sizeof(ENUM_YESNO), ENUM_YESNO, FL_OEM, 211, 127},       // Prolong limite chauff jour
+    {0x213D0663, VT_TEMP, 740, S740_0, 0, NULL, DEFAULT_FLAG, 211, 127},                         // Limitation mini de température de départ
+    {0x213D0662, VT_TEMP, 741, S741_0, 0, NULL, DEFAULT_FLAG, 211, 127},                         // Limitation maxi de température de départ
+    {0x2D3D0603, VT_PERCENT, 750, S750_0, 0, NULL, DEFAULT_FLAG, 211, 127},                      // Influence de la température ambiante
+    {0x2D3D0614, VT_TEMP_N, 760, S760_0, 0, NULL, DEFAULT_FLAG, 211, 127},                       // Point de coupure différentiel temp. Ambiante
+    {0x2D3D0602, VT_TEMP_N, 770, S770_0, 0, NULL, FL_OEM, 211, 127},                             // Surélévation consigne d'ambiance
+    {0x2D3D05E8, VT_ENUM, 780, S780_0, sizeof(E780_0), E780_0, DEFAULT_FLAG, 211, 127},          // Réduction rapide
+    {0x2D3D0607, VT_MINUTES, 790, S790_0, 0, NULL, DEFAULT_FLAG, 211, 127},                      // Temps de mise en régime maximal
+    {0x2D3D0609, VT_MINUTES, 791, S791_0, 0, NULL, DEFAULT_FLAG, 211, 127},                      // Optimisation heure d'arrêt  Anticipation maxi
+    {0x2D3D0639, VT_GRADIENT, 794, S794_0, 0, NULL, FL_OEM, 211, 127},                           // Gradient mise en régime des 2 générateurs
+    {0x2D3D059E, VT_TEMP_N, 800, S800_0, 0, NULL, DEFAULT_FLAG, 211, 127},                       // Début relèvement consigne réduite de temp. amb.
+    {0x2D3D059D, VT_TEMP, 801, S801_0, 0, NULL, DEFAULT_FLAG, 211, 127},                         // Fin relèvement consigne réduite de temp. amb.
+    {0x213D063A, VT_ONOFF, 810, S810_0, sizeof(ENUM_ONOFF), ENUM_ONOFF, FL_OEM, 211, 127},       // Hors-gel installat.pour pompe circuit chauffage
+    {0x213D0674, VT_ONOFF, 820, S820_0, sizeof(ENUM_ONOFF), ENUM_ONOFF, FL_OEM, 211, 127},       // Protection contre surchauffe du CC à pompe
+    {0x213D065D, VT_TEMP, 830, S830_0, 0, NULL, DEFAULT_FLAG, 211, 127},                         // Surélévation temp. mélangeur circuit de chauffe
+    {0x213D065A, VT_SECONDS_WORD, 834, S834_0, 0, NULL, DEFAULT_FLAG, 211, 127},                 // Durée de marche servomoteur circuit de chauffe
+    {0x2D3D067B, VT_ENUM, 850, S850_0, sizeof(E850_0), E850_0, DEFAULT_FLAG, 211, 127},          // Fonction de séchage dalle
+    {0x2D3D068A, VT_TEMP, 851, S851_0, 0, NULL, DEFAULT_FLAG, 211, 127},                         // Consigne manuelle séchage chapes de béton
+    {0x2D3D067D, VT_TEMP, 855, S855_0, 0, NULL, FL_RONLY, 211, 127},                             // Cons. de temp. de départ séchage plancher plâtre
+    {0x2D3D0DF2, VT_BYTE, 856, S856_0, 0, NULL, FL_RONLY, 211, 127},                             // Séchage dalle jour
+    {0x213D0B43, VT_BYTE, 857, S857_0, 0, NULL, FL_RONLY, 211, 127},                             // Jours de séchage accomplis
+    {0x053D07BE, VT_ENUM, 900, S900_0, sizeof(E900_0), E900_0, DEFAULT_FLAG, 211, 127},          // Commutation de régime
+    {0x653D0A26, VT_ENUM, 901, S901_0, sizeof(E901_0), E901_0, DEFAULT_FLAG, 211, 127},          // Mode de fonctionnement
+    {0x653D0A1A, VT_TEMP, 902, S902_0, 0, NULL, DEFAULT_FLAG, 211, 127},                         // Consigne de confort
+    {0x653D0A1A, VT_TEMP, 902.1, S902P1_0, 0, NULL, DEFAULT_FLAG, 211, 127},                     // Consigne confort temp. ambiante CR1
+    {0x653D0A1A, VT_TEMP, 902.2, S902P2_0, 0, NULL, DEFAULT_FLAG, 211, 127},                     // Consigne confort temp. ambiante CR1
+    {0x653D1943, VT_TEMP, 903, S903_0, 0, NULL, DEFAULT_FLAG, 211, 127},                         // Consigne régime REDUIT
+    {0x653D0A80, VT_TEMP, 904, S904_0, 0, NULL, FL_OEM, 211, 127},                               // Consigne de protection temp. amb. CR1
+    {0x653D1944, VT_TEMP, 905, S905_0, 0, NULL, FL_OEM, 211, 127},                               // Consigne confort minimum
+    {0x653D0A20, VT_TEMP, 908, S908_0, 0, NULL, DEFAULT_FLAG, 211, 127},                         // Consigne départ pour temp. ext. 25°C CR1
+    {0x653D0A21, VT_TEMP, 909, S909_0, 0, NULL, DEFAULT_FLAG, 211, 127},                         // Consigne départ pour temp. ext. 35°C CR1
+    {0x653D0A22, VT_TEMP_N, 912, S912_0, 0, NULL, DEFAULT_FLAG, 211, 127},                       // Limite refroidissement  pour temp. ext. CR 1
+    {0x693D0A75, VT_HOURS_SHORT_N, 913, S913_0, 0, NULL, DEFAULT_FLAG, 211, 127},                // Durée blocage ap chau/rafr
+    {0x653D1940, VT_TEMP_N, 914, S914_0, 0, NULL, FL_OEM, 211, 127},                             // Limite rafraîch journalière
+    {0x653D0A25, VT_TEMP, 918, S918_0, 0, NULL, DEFAULT_FLAG, 211, 127},                         // Début compensation d'été pour temp. ext. CR1
+    {0x653D0A24, VT_TEMP, 919, S919_0, 0, NULL, DEFAULT_FLAG, 211, 127},                         // Fin compensation d'été pour temp. ext. CR1
+    {0x653D0A1B, VT_TEMP_N, 920, S920_0, 0, NULL, DEFAULT_FLAG, 211, 127},                       // Relèvement consigne compens. d'été CR1
+    {0x653D0A1E, VT_TEMP, 923, S923_0, 0, NULL, DEFAULT_FLAG, 211, 127},                         // Consigne départ min. pour temp. ext. 25°C CR1
+    {0x653D0A1F, VT_TEMP, 924, S924_0, 0, NULL, DEFAULT_FLAG, 211, 127},                         // Consigne départ min. pour temp. ext. 35°C CR1
+    {0x653D0A27, VT_PERCENT, 928, S928_0, 0, NULL, DEFAULT_FLAG, 211, 127},                      // Influence de la température ambiante
+    {0x653D0A23, VT_TEMP_N, 932, S932_0, 0, NULL, DEFAULT_FLAG, 211, 127},                       // Point de coupure différentiel temp. Ambiante
+    {0x653D0B6F, VT_PERCENT, 933, S933_0, 0, NULL, FL_OEM, 211, 127},                            // Limite froid régulateur circuit refroidissement1
+    {0x693D0A70, VT_ONOFF, 937, S937_0, sizeof(ENUM_ONOFF), ENUM_ONOFF, FL_OEM, 211, 127},       // PAG de l'installation pour pompe CR1
+    {0x693D0B65, VT_TEMP, 938, S938_0, 0, NULL, DEFAULT_FLAG, 211, 127},                         // Sous-refrodissement vanne mélange CR 1
+    {0x693D0A7D, VT_SECONDS_WORD, 941, S941_0, 0, NULL, DEFAULT_FLAG, 211, 127},                 // Durée de marche servomoteur circuit de chauffe
+    {0x653D0B69, VT_YESNO, 963, S963_0, sizeof(ENUM_YESNO), ENUM_YESNO, DEFAULT_FLAG, 211, 127}, // Avec prérégulateur/pompe d'alimentation
+    {0x053D0B7A, VT_ENUM, 969, S969_0, sizeof(E969_0), E969_0, FL_OEM, 211, 127},                // Commutation de régime
+    {0x2E3D0574, VT_ENUM, 1000, S1000_0, sizeof(E1000_0), E1000_0, DEFAULT_FLAG, 211, 127},      // Mode de fonctionnement
+    {0x2E3D0574, VT_ENUM, 1000, S_BA_TEXT, sizeof(E_BA_HK), E_BA_HK, DEFAULT_FLAG, 255, 255},
+    {0x063D1A83, VT_ENUM, 1001, S1001_0, sizeof(E1001_0), E1001_0, DEFAULT_FLAG, 211, 127},         // Plus chaud/froid
+    {0x063D1A91, VT_ENUM, 1001.1, S1001P1_0, sizeof(E1001P1_0), E1001P1_0, DEFAULT_FLAG, 211, 127}, // Temporarily warmer
+    {0x063D1A92, VT_ENUM, 1001.2, S1001P2_0, sizeof(E1001P2_0), E1001P2_0, DEFAULT_FLAG, 211, 127}, // Temporarily cooler
+    {0x2E3D058E, VT_TEMP, 1010, S1010_0, 0, NULL, DEFAULT_FLAG, 211, 127},                          // Consigne de confort
+    {0x2E3D0590, VT_TEMP, 1012, S1012_0, 0, NULL, DEFAULT_FLAG, 211, 127},                          // Consigne régime REDUIT
+    {0x2E3D0592, VT_TEMP, 1014, S1014_0, 0, NULL, DEFAULT_FLAG, 211, 127},                          // Consigne de protection temp. amb. CR1
+    {0x2E3D05A5, VT_TEMP, 1016, S1016_0, 0, NULL, DEFAULT_FLAG, 211, 127},                          // Consigne de confort Maximum
+    {0x2E3D05F6, VT_FP02, 1020, S1020_0, 0, NULL, DEFAULT_FLAG, 211, 127},                          // Courbe de chauffe
+    {0x2E3D0610, VT_TEMP, 1021, S1021_0, 0, NULL, DEFAULT_FLAG, 211, 127},                          // Translation de la courbe de chauffe
+    {0x2E3D05FD, VT_TEMP_N, 1030, S1030_0, 0, NULL, DEFAULT_FLAG, 211, 127},                        // Température de commutation été/hiver
+    {0x2E3D0640, VT_TEMP_N, 1032, S1032_0, 0, NULL, FL_OEM, 211, 127},                              // Limite de chauffe ECO
+    {0x063D1214, VT_YESNO, 1033, S1033_0, sizeof(ENUM_YESNO), ENUM_YESNO, FL_OEM, 211, 127},        // Prolong limite chauff jour
+    {0x223D0663, VT_TEMP, 1040, S1040_0, 0, NULL, DEFAULT_FLAG, 211, 127},                          // Limitation mini de température de départ
+    {0x223D0662, VT_TEMP, 1041, S1041_0, 0, NULL, DEFAULT_FLAG, 211, 127},                          // Limitation maxi de température de départ
+    {0x2E3D0603, VT_PERCENT, 1050, S1050_0, 0, NULL, DEFAULT_FLAG, 211, 127},                       // Influence de la température ambiante
+    {0x2E3D0614, VT_TEMP_N, 1060, S1060_0, 0, NULL, DEFAULT_FLAG, 211, 127},                        // Point de coupure différentiel temp. Ambiante
+    {0x2E3D05E8, VT_ENUM, 1080, S1080_0, sizeof(E1080_0), E1080_0, DEFAULT_FLAG, 211, 127},         // Réduction rapide
+    {0x2E3D0607, VT_MINUTES, 1090, S1090_0, 0, NULL, DEFAULT_FLAG, 211, 127},                       // Temps de mise en régime maximal
+    {0x2E3D0609, VT_MINUTES, 1091, S1091_0, 0, NULL, DEFAULT_FLAG, 211, 127},                       // Optimisation heure d'arrêt  Anticipation maxi
+    {0x2E3D0639, VT_GRADIENT, 1094, S1094_0, 0, NULL, FL_OEM, 211, 127},                            // Gradient mise en régime des 2 générateurs
+    {0x2E3D059E, VT_TEMP_N, 1100, S1100_0, 0, NULL, DEFAULT_FLAG, 211, 127},                        // Début relèvement consigne réduite de temp. amb.
+    {0x2E3D059D, VT_TEMP, 1101, S1101_0, 0, NULL, DEFAULT_FLAG, 211, 127},                          // Fin relèvement consigne réduite de temp. amb.
+    {0x223D063A, VT_ONOFF, 1110, S1110_0, sizeof(ENUM_ONOFF), ENUM_ONOFF, FL_OEM, 211, 127},        // Hors-gel installat.pour pompe circuit chauffage
+    {0x223D0674, VT_ONOFF, 1120, S1120_0, sizeof(ENUM_ONOFF), ENUM_ONOFF, FL_OEM, 211, 127},        // Protection contre surchauffe du CC à pompe
+    {0x223D065D, VT_TEMP, 1130, S1130_0, 0, NULL, DEFAULT_FLAG, 211, 127},                          // Surélévation temp. mélangeur circuit de chauffe
+    {0x223D065A, VT_SECONDS_WORD, 1134, S1134_0, 0, NULL, DEFAULT_FLAG, 211, 127},                  // Durée de marche servomoteur circuit de chauffe
+    {0x2E3D067B, VT_ENUM, 1150, S1150_0, sizeof(E1150_0), E1150_0, DEFAULT_FLAG, 211, 127},         // Fonction de séchage dalle
+    {0x2E3D068A, VT_TEMP, 1151, S1151_0, 0, NULL, DEFAULT_FLAG, 211, 127},                          // Consigne manuelle séchage chapes de béton
+    {0x2E3D0DF2, VT_BYTE, 1156, S1156_0, 0, NULL, FL_RONLY, 211, 127},                              // Séchage dalle jour
+    {0x223D0B43, VT_BYTE, 1157, S1157_0, 0, NULL, FL_RONLY, 211, 127},                              // Jours de séchage accomplis
+    {0x063D07BE, VT_ENUM, 1200, S1200_0, sizeof(E1200_0), E1200_0, DEFAULT_FLAG, 211, 127},         // Commutation de régime
+    {0x663D0A26, VT_ENUM, 1201, S1201_0, sizeof(E1201_0), E1201_0, DEFAULT_FLAG, 211, 127},         // Mode de fonctionnement
+    {0x663D0A1A, VT_TEMP, 1202, S1202_0, 0, NULL, DEFAULT_FLAG, 211, 127},                          // Consigne de confort
+    {0x663D1943, VT_TEMP, 1203, S1203_0, 0, NULL, DEFAULT_FLAG, 211, 127},                          // Consigne régime REDUIT
+    {0x663D0A80, VT_TEMP, 1204, S1204_0, 0, NULL, FL_OEM, 211, 127},                                // Consigne de protection temp. amb. CR1
+    {0x663D1944, VT_TEMP, 1205, S1205_0, 0, NULL, FL_OEM, 211, 127},                                // Consigne confort minimum
+    {0x663D0A20, VT_TEMP, 1208, S1208_0, 0, NULL, DEFAULT_FLAG, 211, 127},                          // Consigne départ pour temp. ext. 25°C CR1
+    {0x663D0A21, VT_TEMP, 1209, S1209_0, 0, NULL, DEFAULT_FLAG, 211, 127},                          // Consigne départ pour temp. ext. 35°C CR1
+    {0x663D0A22, VT_TEMP_N, 1212, S1212_0, 0, NULL, DEFAULT_FLAG, 211, 127},                        // Limite refroidissement  pour temp. ext. CR 1
+    {0x6A3D0A75, VT_HOURS_SHORT_N, 1213, S1213_0, 0, NULL, DEFAULT_FLAG, 211, 127},                 // Durée blocage ap chau/rafr
+    {0x663D1940, VT_TEMP_N, 1214, S1214_0, 0, NULL, FL_OEM, 211, 127},                              // Limite rafraîch journalière
+    {0x663D0A25, VT_TEMP, 1218, S1218_0, 0, NULL, DEFAULT_FLAG, 211, 127},                          // Début compensation d'été pour temp. ext. CR1
+    {0x663D0A24, VT_TEMP, 1219, S1219_0, 0, NULL, DEFAULT_FLAG, 211, 127},                          // Fin compensation d'été pour temp. ext. CR1
+    {0x663D0A1B, VT_TEMP_N, 1220, S1220_0, 0, NULL, DEFAULT_FLAG, 211, 127},                        // Relèvement consigne compens. d'été CR1
+    {0x663D0A1E, VT_TEMP, 1223, S1223_0, 0, NULL, DEFAULT_FLAG, 211, 127},                          // Consigne départ min. pour temp. ext. 25°C CR1
+    {0x663D0A1F, VT_TEMP, 1224, S1224_0, 0, NULL, DEFAULT_FLAG, 211, 127},                          // Consigne départ min. pour temp. ext. 35°C CR1
+    {0x663D0A27, VT_PERCENT, 1228, S1228_0, 0, NULL, DEFAULT_FLAG, 211, 127},                       // Influence de la température ambiante
+    {0x663D0A23, VT_TEMP_N, 1232, S1232_0, 0, NULL, DEFAULT_FLAG, 211, 127},                        // Point de coupure différentiel temp. Ambiante
+    {0x663D0B6F, VT_PERCENT, 1233, S1233_0, 0, NULL, FL_OEM, 211, 127},                             // Limite froid régulateur circuit refroidissement1
+    {0x6A3D0A70, VT_ONOFF, 1237, S1237_0, sizeof(ENUM_ONOFF), ENUM_ONOFF, FL_OEM, 211, 127},        // PAG de l'installation pour pompe CR1
+    {0x6A3D0B65, VT_TEMP, 1238, S1238_0, 0, NULL, DEFAULT_FLAG, 211, 127},                          // Sous-refrodissement vanne mélange CR 1
+    {0x6A3D0A7D, VT_SECONDS_WORD, 1241, S1241_0, 0, NULL, DEFAULT_FLAG, 211, 127},                  // Durée de marche servomoteur circuit de chauffe
+    {0x663D0B69, VT_YESNO, 1263, S1263_0, sizeof(ENUM_YESNO), ENUM_YESNO, DEFAULT_FLAG, 211, 127},  // Avec prérégulateur/pompe d'alimentation
+    {0x063D0B7A, VT_ENUM, 1269, S1269_0, sizeof(E1269_0), E1269_0, FL_OEM, 211, 127},               // Commutation de régime
+    {0x2F3D0574, VT_ENUM, 1300, S_BA_TEXT, sizeof(E_BA_HK), E_BA_HK, DEFAULT_FLAG, 255, 255},
+    {0x073D1A83, VT_ENUM, 1301, S1301_0, sizeof(E1301_0), E1301_0, DEFAULT_FLAG, 211, 127},         // Plus chaud/froid
+    {0x073D1A91, VT_ENUM, 1301.1, S1301P1_0, sizeof(E1301P1_0), E1301P1_0, DEFAULT_FLAG, 211, 127}, // Temporarily warmer
+    {0x073D1A92, VT_ENUM, 1301.2, S1301P2_0, sizeof(E1301P2_0), E1301P2_0, DEFAULT_FLAG, 211, 127}, // Temporarily cooler
+    {0x313D0571, VT_ENUM, 1600, S1600_0, sizeof(E1600_0), E1600_0, DEFAULT_FLAG, 211, 127},         // Mode de fonctionnement
+    {0x313D0571, VT_ENUM, 1600, S_BA_TEXT, sizeof(E_BA_TW), E_BA_TW, DEFAULT_FLAG, 255, 255},
     {0x253D1158, VT_ENUM, 1601, S1601_0, sizeof(E1601_0), E1601_0, FL_OEM, 211, 127},                  // Sélection régime Eco
     {0x313D06B9, VT_TEMP, 1610, S1610_0, 0, NULL, DEFAULT_FLAG, 211, 127},                             // Consigne nominale de température ECS
     {0x313D06BA, VT_TEMP, 1612, S1612_0, 0, NULL, DEFAULT_FLAG, 211, 127},                             // Consigne réduite de température ECS
@@ -5103,6 +5099,7 @@ PROGMEM_LATE const cmd_t cmdtbl[] = {
     {0x053D1080, VT_DATETIME, 3119, S3119_0, 0, NULL, FL_OEM, 211, 127},                               // Jour relève fact. Perf. ann
     {0x053D16B3, VT_UINT100_WORD_N, 3120, S3120_0, 0, NULL, FL_OEM + FL_RONLY, 211, 127},              // COP annuel 1
     {0x053D170D, VT_STRING, 3120.1, S3120P1_0, 0, NULL, FL_OEM + FL_RONLY, 211, 127},                  // Jour relève 1
+    {0x053D1721, VT_STRING, 3121, S3121_0, 0, NULL, FL_RONLY, 211, 127},                               // Chaleur fournie, chauffag1
     {0x053D172B, VT_STRING, 3122, S3122_0, 0, NULL, FL_RONLY, 211, 127},                               // Chaleur fournie, ECS1
     {0x053D1983, VT_STRING, 3123, S3123_0, 0, NULL, FL_RONLY, 211, 127},                               // Refroidissement fourni 1
     {0x053D1735, VT_STRING, 3124, S3124_0, 0, NULL, FL_RONLY, 211, 127},                               // Energie utilisée chauffage1
