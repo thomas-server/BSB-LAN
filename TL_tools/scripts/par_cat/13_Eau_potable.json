@@ -1,0 +1,311 @@
+{
+  "1600": {
+    "name": "Mode de fonctionnement",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Arrêt" },
+      { "enumValue": 1, "desc": "Marche" },
+      { "enumValue": 2, "desc": "Eco" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "1601": {
+    "name": "Sélection régime Eco",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Sans" },
+      { "enumValue": 1, "desc": "---" },
+      { "enumValue": 2, "desc": "Ballon ECS" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "1610": {
+    "name": "Consigne nominale de température ECS",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "1612": {
+    "name": "Consigne réduite de température ECS",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "1614": {
+    "name": "Consigne nominale  max. température ECS",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "1620": {
+    "name": "Libération ECS",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "24h/24" },
+      { "enumValue": 1, "desc": "Tous prog. horaire CC/CR" },
+      { "enumValue": 2, "desc": "Programme horaire 4/ECS" },
+      { "enumValue": 3, "desc": "Tarif heures creuses" },
+      { "enumValue": 4, "desc": "Prog. horaire 4/ECS ou THC" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "1630": {
+    "name": "Priorité de charge ECS",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Absolue" },
+      { "enumValue": 1, "desc": "Glissante" },
+      { "enumValue": 2, "desc": "Aucune (parallèle)" },
+      { "enumValue": 3, "desc": "glissant, absolu" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "1640": {
+    "name": "Fonction antilégionnelle",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Arrêt" },
+      { "enumValue": 1, "desc": "Périodique" },
+      { "enumValue": 2, "desc": "Jour de semaine fixe" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "1641": {
+    "name": "Périodicité de la fonction anti-légionelles",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "1642": {
+    "name": "Fonction anti-légionelles Jour",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 1, "desc": "Lundi" },
+      { "enumValue": 2, "desc": "Mardi" },
+      { "enumValue": 3, "desc": "Mercredi" },
+      { "enumValue": 4, "desc": "Jeudi" },
+      { "enumValue": 5, "desc": "Vendredi" },
+      { "enumValue": 6, "desc": "Samedi" },
+      { "enumValue": 7, "desc": "Dimanche" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "1644": {
+    "name": "Heure de la fonction anti-légionnelles",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "1645": {
+    "name": "Consigne fonction anti-légionnelle",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "1646": {
+    "name": "Durée séjour sur consigne fonction légionelle",
+    "dataType_name": "MINUTES_WORD",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "min"
+  },
+  "1647": {
+    "name": "Fonction. pompe circul .pendant fonction légion.",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Arrêt" },
+      { "enumValue": 1, "desc": "Marche" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "1648": {
+    "name": "Fonct légionel selon delta T",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "1660": {
+    "name": "Libération de la pompe de circulation ECS",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 1, "desc": "Programme horaire CC/CR 3" },
+      { "enumValue": 2, "desc": "Libération ECS" },
+      { "enumValue": 3, "desc": "Programme horaire 4/ECS" },
+      { "enumValue": 4, "desc": "Programme horaire 5" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "1661": {
+    "name": "Fonct. cyclique pompe de circulation ECS",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Arrêt" },
+      { "enumValue": 1, "desc": "Marche" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "1663": {
+    "name": "Consigne circulation ECS",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "1680": {
+    "name": "Commutation de régime",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Sans" },
+      { "enumValue": 1, "desc": "Arrêt" },
+      { "enumValue": 2, "desc": "Marche" },
+      { "enumValue": 3, "desc": "Eco" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  }
+}

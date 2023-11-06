@@ -1,0 +1,92 @@
+{
+  "3512": {
+    "name": "Bande de puissance, limite supérieure (Pmax)",
+    "dataType_name": "PERCENT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "%"
+  },
+  "3530": {
+    "name": "Intégrale libération séquence générateurs",
+    "dataType_name": "CELMIN",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°Cmin"
+  },
+  "3531": {
+    "name": "Intégrale remise à zéro séquence générateurs",
+    "dataType_name": "CELMIN",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°Cmin"
+  },
+  "3533": {
+    "name": "Temporisation raccordement générateur séquentiel",
+    "dataType_name": "MINUTES_SHORT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "min"
+  },
+  "3540": {
+    "name": "Délai avant commutation cascade gén auto",
+    "dataType_name": "HOURS_WORD",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "h"
+  },
+  "3690": {
+    "name": "Régl consign chaud principale",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  }
+}

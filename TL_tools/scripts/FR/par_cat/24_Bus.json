@@ -1,0 +1,238 @@
+{
+  "6601": {
+    "name": "Adresse de segment",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6604": {
+    "name": "Sélection fonction Alimentation Bus",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Arrêt" },
+      { "enumValue": 1, "desc": "Automatique" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6605": {
+    "name": "Etat de l'alimentation Bus",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Arrêt" },
+      { "enumValue": 1, "desc": "Marche" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6610": {
+    "name": "Affichage des messages système",
+    "dataType_name": "YESNO",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Non" },
+      { "enumValue": 1, "desc": "Oui" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6612": {
+    "name": "Temporisation d'alarme",
+    "dataType_name": "MINUTES_SHORT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "min"
+  },
+  "6620": {
+    "name": "Plage active des commutations centrales",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Segment" },
+      { "enumValue": 1, "desc": "System" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6621": {
+    "name": "Commutation automatique été/hiver",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Localisé" },
+      { "enumValue": 1, "desc": "Centralisée" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6623": {
+    "name": "Commutation de régime",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Localisé" },
+      { "enumValue": 1, "desc": "Centralisée" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6625": {
+    "name": "Affectation ECS",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Tous les CC/CR localement" },
+      { "enumValue": 1, "desc": "Tous les CC/CR du segment" },
+      { "enumValue": 2, "desc": "Tous les CC/CR du système" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6627": {
+    "name": "Demande de froid",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Localisé" },
+      { "enumValue": 1, "desc": "Centralisée" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6630": {
+    "name": "Maître de cascade",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Arrêt" },
+      { "enumValue": 1, "desc": "Toujours" },
+      { "enumValue": 2, "desc": "Automatique" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6632": {
+    "name": "Tenir compte de la limite de T°Ext des gén ext",
+    "dataType_name": "YESNO",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Non" },
+      { "enumValue": 1, "desc": "Oui" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6640": {
+    "name": "Source de l'heure",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Horloge autonome dans le régulateur" },
+      { "enumValue": 1, "desc": "Horloge esclave sans réglage à distance" },
+      { "enumValue": 2, "desc": "Horloge esclave avec réglage à distance" },
+      { "enumValue": 3, "desc": "Le régulateur est le maître de l'heure" },
+      { "enumValue": 4, "desc": "Wait time activ" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6650": {
+    "name": "Source de température extérieure",
+    "dataType_name": "LPBADDR",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6651": {
+    "name": "Adresse esclave",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  }
+}

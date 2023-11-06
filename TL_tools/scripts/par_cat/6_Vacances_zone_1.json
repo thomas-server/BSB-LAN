@@ -1,0 +1,47 @@
+{
+  "642": {
+    "name": "Début Congé",
+    "dataType_name": "VACATIONPROG",
+    "dataType_family": "DDMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 6,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "643": {
+    "name": "Fin Congé",
+    "dataType_name": "VACATIONPROG",
+    "dataType_family": "DDMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 6,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "648": {
+    "name": "Niveau fonctionnement pendant vacances",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Régime de protection" },
+      { "enumValue": 1, "desc": "Réduit" },
+      { "enumValue": 2, "desc": "Confort" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  }
+}

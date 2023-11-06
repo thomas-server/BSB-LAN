@@ -1,0 +1,969 @@
+{
+  "15000": {
+    "name": "Régime Circuit de chauffe 1",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Automatisch" },
+      { "enumValue": 1, "desc": "Manuell" },
+      { "enumValue": 2, "desc": "Arrêt" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15001": {
+    "name": "Touche de présence",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Arrêt" },
+      { "enumValue": 1, "desc": "Marche" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15002": {
+    "name": "Bouton rotatif",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "15003": {
+    "name": "Jours de vacances restants",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15004": {
+    "name": "Consigne confort temp.ambiante CC1",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "15005": {
+    "name": "Valeur de consigne réduite temp. ambiante CC1",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "15006": {
+    "name": "Consigne horsgel température ambiante CC1",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "15007": {
+    "name": "Limitation maxi de température de chaudière",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "15008": {
+    "name": "Température ambiante",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "15020": {
+    "name": "Trinkwasserladung",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Arrêt" },
+      { "enumValue": 1, "desc": "Marche" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15021": {
+    "name": "Température  mesurée ECS en haut (B3)",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "15030": {
+    "name": "Température extérieure locale",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "15031": {
+    "name": "Température extérieure mélangée",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "15032": {
+    "name": "Température de départ circuit de chauffe 1",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "15033": {
+    "name": "Consigne de départ H1",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "15034": {
+    "name": "Température départ après mélangeur",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "15035": {
+    "name": "Température cible",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "15036": {
+    "name": "Puissance relative",
+    "dataType_name": "PERCENT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "%"
+  },
+  "15040": {
+    "name": "Heure chaudière",
+    "dataType_name": "PPS_TIME",
+    "dataType_family": "DWHM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 8,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15041": {
+    "name": "Wochentag",
+    "dataType_name": "WEEKDAY",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 1, "desc": "Montag" },
+      { "enumValue": 2, "desc": "Dienstag" },
+      { "enumValue": 3, "desc": "Mittwoch" },
+      { "enumValue": 4, "desc": "Donnerstag" },
+      { "enumValue": 5, "desc": "Freitag" },
+      { "enumValue": 6, "desc": "Samstag" },
+      { "enumValue": 7, "desc": "Sonntag" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15043": {
+    "name": "Chauffage manuel",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Arrêt" },
+      { "enumValue": 1, "desc": "Marche" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15044": {
+    "name": "Status Brenner",
+    "dataType_name": "BIT",
+    "dataType_family": "BITS",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 1, "desc": "?" },
+      { "enumValue": 257, "desc": "?" },
+      { "enumValue": 2, "desc": "Auto-Mode: aus" },
+      { "enumValue": 514, "desc": "Auto-Mode: an" },
+      { "enumValue": 4, "desc": "?" },
+      { "enumValue": 1028, "desc": "?" },
+      { "enumValue": 8, "desc": "Pumpe an" },
+      { "enumValue": 2056, "desc": "Pumpe aus" },
+      { "enumValue": 16, "desc": "Kontakt H1: offen" },
+      { "enumValue": 4112, "desc": "Kontakt H1: geschlossen" }
+    ],
+    "isswitch": 0,
+    "dataType": 2,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15045": {
+    "name": "Connexion interrompue",
+    "dataType_name": "YESNO",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Non" },
+      { "enumValue": 1, "desc": "Oui" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15046": {
+    "name": "Modèle de sonde d'ambiance QAA",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 82, "desc": "QAA 50" },
+      { "enumValue": 83, "desc": "QAA 70" },
+      { "enumValue": 90, "desc": "QAA 10" },
+      { "enumValue": 55, "desc": "QAA 95" },
+      { "enumValue": 102, "desc": "BMU" },
+      { "enumValue": 234, "desc": "DC225/MCBA/REA70" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15050": {
+    "name": "Période de chauffe 1 Lundi Début",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15051": {
+    "name": "Période de chauffe 1 Lundi Fin",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15052": {
+    "name": "Période de chauffe 2 Lundi Début",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15053": {
+    "name": "Période de chauffe 2 Lundi Fin",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15054": {
+    "name": "Période de chauffe 3 Lundi Début",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15055": {
+    "name": "Période de chauffe 3 Lundi Fin",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15056": {
+    "name": "Période de chauffe 1 Mardi Début",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15057": {
+    "name": "Période de chauffe 1 Mardi Fin",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15058": {
+    "name": "Période de chauffe 2 Mardi Début",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15059": {
+    "name": "Période de chauffe 2 Mardi Fin",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15060": {
+    "name": "Période de chauffe 3 Mardi Début",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15061": {
+    "name": "Période de chauffe 3 Mardi Fin",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15062": {
+    "name": "Période de chauffe 1 Mercredi Début",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15063": {
+    "name": "Période de chauffe 1 Mercredi Fin",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15064": {
+    "name": "Période de chauffe 2 Mercredi Début",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15065": {
+    "name": "Période de chauffe 2 Mercredi Fin",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15066": {
+    "name": "Période de chauffe 3 Mercredi Début",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15067": {
+    "name": "Période de chauffe 3 Mercredi Fin",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15068": {
+    "name": "Période de chauffe 1 Jeudi Début",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15069": {
+    "name": "Période de chauffe 1 Jeudi Fin",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15070": {
+    "name": "Période de chauffe 2 Jeudi Début",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15071": {
+    "name": "Période de chauffe 2 Jeudi Fin",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15072": {
+    "name": "Période de chauffe 3 Jeudi Début",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15073": {
+    "name": "Période de chauffe 3 Jeudi Fin",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15074": {
+    "name": "Période de chauffe 1 Vendredi Début",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15075": {
+    "name": "Période de chauffe 1 Vendredi Fin",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15076": {
+    "name": "Période de chauffe 2 Vendredi Début",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15077": {
+    "name": "Période de chauffe 2 Vendredi Fin",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15078": {
+    "name": "Période de chauffe 3 Vendredi Début",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15079": {
+    "name": "Période de chauffe 3 Vendredi Fin",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15080": {
+    "name": "Période de chauffe 1 Samedi Début",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15081": {
+    "name": "Période de chauffe 1 Samedi Fin",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15082": {
+    "name": "Période de chauffe 2 Samedi Début",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15083": {
+    "name": "Période de chauffe 2 Samedi Fin",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15084": {
+    "name": "Période de chauffe 3 Samedi Début",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15085": {
+    "name": "Période de chauffe 3 Samedi Fin",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15086": {
+    "name": "Période de chauffe 1 Dimanche Début",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15087": {
+    "name": "Période de chauffe 1 Dimanche Fin",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15088": {
+    "name": "Période de chauffe 2 Dimanche Début",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15089": {
+    "name": "Période de chauffe 2 Dimanche Fin",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15090": {
+    "name": "Période de chauffe 3 Dimanche Début",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15091": {
+    "name": "Période de chauffe 3 Dimanche Fin",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  }
+}
