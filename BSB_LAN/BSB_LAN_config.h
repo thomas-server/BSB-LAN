@@ -16,7 +16,7 @@
  * Incomplete languages will automatically be filled up with English translations first, and if no English translation
  * is available, fallback will take place to German.
 */
-#define LANG FR
+#define LANG EN
 
 /*
 Allow to initialize program configuration by reading settings from EEPROM
