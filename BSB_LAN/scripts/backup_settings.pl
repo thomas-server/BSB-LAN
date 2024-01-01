@@ -22,17 +22,17 @@ if ($to le " " ) {
 }
 
 
-# Prompt for credentials
-print "Username: ";
-my $username = <STDIN>;
-chomp($username);
+# # Prompt for credentials
+# print "Username: ";
+# my $username = <STDIN>;
+# chomp($username);
 
-print "Password: ";
-system "stty -echo";  # Disable echo for password input
-my $password = <STDIN>;
-chomp($password);
-system "stty echo";  # Re-enable echo
-print "\n";  # Print a newline since echo was disabled when the user pressed enter
+# print "Password: ";
+# system "stty -echo";  # Disable echo for password input
+# my $password = <STDIN>;
+# chomp($password);
+# system "stty echo";  # Re-enable echo
+# print "\n";  # Print a newline since echo was disabled when the user pressed enter
 
 
 print "Creating backup for parameters $from to $to, this may take several minutes...\n";
@@ -42,7 +42,9 @@ chomp ($date);
 open(my $OUT, ">", "backup_settings-$from-$to-$date.csv") or die "Cannot open file: $!";
 
 # Construct and execute the wget command while printing it
-my $wget_cmd = "wget --http-user='$username' --http-password='$password' -q -O - $URL/$from-$to";
+# my $wget_cmd = "wget --http-user='$username' --http-password='$password' -q -O - $URL/$from-$to";
+my $wget_cmd = "wget -q -O - $URL/$from-$to";
+
 print "Executing wget command: $wget_cmd\n";
 open(my $WGET, "-|", $wget_cmd) or die "Cannot execute wget: $!";
 
