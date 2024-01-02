@@ -1,0 +1,47 @@
+{
+  "642": {
+    "name": "Holidays start",
+    "dataType_name": "VACATIONPROG",
+    "dataType_family": "DDMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 6,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "643": {
+    "name": "Holidays end",
+    "dataType_name": "VACATIONPROG",
+    "dataType_family": "DDMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 6,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "648": {
+    "name": "Operating level during holidays",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Protection" },
+      { "enumValue": 1, "desc": "Reduced" },
+      { "enumValue": 2, "desc": "Comfort" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  }
+}

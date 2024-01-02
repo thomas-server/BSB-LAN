@@ -1,0 +1,570 @@
+{
+  "2776": {
+    "name": "Pump speed min condenser pump with DHW",
+    "dataType_name": "PERCENT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "%"
+  },
+  "2777": {
+    "name": "Pump speed max condenser pump with DHW",
+    "dataType_name": "PERCENT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "%"
+  },
+  "2778": {
+    "name": "Pump speed min condenser pump cooling mode",
+    "dataType_name": "PERCENT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "%"
+  },
+  "2779": {
+    "name": "Pump speed max condenser pump cooling mode",
+    "dataType_name": "PERCENT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "%"
+  },
+  "2792": {
+    "name": "Pump speed min heating circuit 1",
+    "dataType_name": "PERCENT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "%"
+  },
+  "2793": {
+    "name": "Pump speed max heating circuit 1",
+    "dataType_name": "PERCENT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "%"
+  },
+  "2800": {
+    "name": "Frost protection plant condenser pump",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "2802": {
+    "name": "Prerun time condenser pump",
+    "dataType_name": "SECONDS_WORD",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "s"
+  },
+  "2803": {
+    "name": "Overrun time condenser pump",
+    "dataType_name": "SECONDS_WORD",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "s"
+  },
+  "2842": {
+    "name": "Compressor running time min",
+    "dataType_name": "MINUTES_SHORT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "min"
+  },
+  "2843": {
+    "name": "Compressor off time min",
+    "dataType_name": "MINUTES_SHORT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "min"
+  },
+  "2844": {
+    "name": "Switch-off temperature max",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "2862": {
+    "name": "Locking time stage2/mod",
+    "dataType_name": "MINUTES_SHORT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "min"
+  },
+  "2863": {
+    "name": "Release integral stage2/mod",
+    "dataType_name": "CELMIN",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°Cmin"
+  },
+  "2864": {
+    "name": "Reset integral stage2/mod",
+    "dataType_name": "CELMIN",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°Cmin"
+  },
+  "2870": {
+    "name": "Compressor modulation max",
+    "dataType_name": "PERCENT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "%"
+  },
+  "2871": {
+    "name": "Compressor modulation min",
+    "dataType_name": "PERCENT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "%"
+  },
+  "2873": {
+    "name": "Compressor modulation run time",
+    "dataType_name": "SECONDS_WORD",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "s"
+  },
+  "2880": {
+    "name": "Use electric flow",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 1, "desc": "Substitute" },
+      { "enumValue": 2, "desc": "Complement HP operation HC" },
+      { "enumValue": 3, "desc": "Complement HP operation DHW" },
+      { "enumValue": 4, "desc": "Complement HP operation HC+DHW" },
+      { "enumValue": 5, "desc": "End DHW charging" },
+      { "enumValue": 6, "desc": "Emergency operation" },
+      { "enumValue": 7, "desc": "Legionella function" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "2881": {
+    "name": "Locking time electric flow",
+    "dataType_name": "MINUTES_SHORT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "min"
+  },
+  "2882": {
+    "name": "Release integral electric flow",
+    "dataType_name": "CELMIN",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°Cmin"
+  },
+  "2883": {
+    "name": "Reset integral electric flow",
+    "dataType_name": "CELMIN",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°Cmin"
+  },
+  "2884": {
+    "name": "Release electric flow below outside temperature",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "2895": {
+    "name": "Delay flow switch",
+    "dataType_name": "SECONDS_SHORT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "s"
+  },
+  "2896": {
+    "name": "Flow switch source active",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Always" },
+      { "enumValue": 1, "desc": "Heating mode only" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "2899": {
+    "name": "Min throughput flow switch consumers",
+    "dataType_name": "LITERPERHOUR",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "l/h"
+  },
+  "2903": {
+    "name": "Release strategy",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "Coefficient of performance" },
+      { "enumValue": 2, "desc": "Energy price" },
+      { "enumValue": 3, "desc": "Coefficient of performance and energy price" },
+      { "enumValue": 4, "desc": "Coefficient of performance or energy price" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "2904": {
+    "name": "Release of coefficient of performance",
+    "dataType_name": "BYTE10",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "2908": {
+    "name": "OT limit with DHW charging",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Disregard" },
+      { "enumValue": 1, "desc": "Note" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "2909": {
+    "name": "Release oil-/gas boil below outside temp thresh",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "2910": {
+    "name": "Heat pump release above outside temperature",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "2915": {
+    "name": "DHW charging time limitation ",
+    "dataType_name": "MINUTES_SHORT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "min"
+  },
+  "2916": {
+    "name": "Max setpoint HP DHW charg",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "2917": {
+    "name": "Min temp DHW charging abort",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "2918": {
+    "name": "Quotient DHW charging abort",
+    "dataType_name": "PERCENT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "%"
+  },
+  "2919": {
+    "name": "Quotient DHW charging abort max",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "2920": {
+    "name": "With electrical utility lock",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Locked" },
+      { "enumValue": 1, "desc": "Released" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  }
+}

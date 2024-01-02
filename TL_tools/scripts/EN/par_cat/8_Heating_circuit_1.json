@@ -1,0 +1,532 @@
+{
+  "700": {
+    "name": "Operating mode",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Protection" },
+      { "enumValue": 1, "desc": "Automatic" },
+      { "enumValue": 2, "desc": "Reduced" },
+      { "enumValue": 3, "desc": "Comfort" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "701": {
+    "name": "Warmer / Cooler",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Cooler" },
+      { "enumValue": 1, "desc": "…" },
+      { "enumValue": 2, "desc": "Warmer" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "701.1": {
+    "name": "Temporarily warmer",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Cooler" },
+      { "enumValue": 1, "desc": "…" },
+      { "enumValue": 2, "desc": "Warmer" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "701.2": {
+    "name": "Temporarily cooler",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Cooler" },
+      { "enumValue": 1, "desc": "…" },
+      { "enumValue": 2, "desc": "Warmer" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "710": {
+    "name": "Comfort setpoint ",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "712": {
+    "name": "Room temp reduced setpoint",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "714": {
+    "name": "Room temp protective setpoint cooling circuit 1",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "716": {
+    "name": "Comfort setpoint max",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "720": {
+    "name": "Heating curve slope",
+    "dataType_name": "FP02",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.01,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "721": {
+    "name": "Heating curve parallel displacement",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "730": {
+    "name": "Summer/winter changeover temp",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "732": {
+    "name": "Heating limit ECO",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "733": {
+    "name": "Ext'n 24-hour heating limit HC1",
+    "dataType_name": "YESNO",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "No" },
+      { "enumValue": 1, "desc": "Yes" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "740": {
+    "name": "Flow temp min limitation",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "741": {
+    "name": "Flow temp max limitation",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "750": {
+    "name": "Room temp gain factor",
+    "dataType_name": "PERCENT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "%"
+  },
+  "760": {
+    "name": "Room temp switching differential switchOff point",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "770": {
+    "name": "Room temp setpoint boost (boost heating)",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "780": {
+    "name": "Quick setback",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "Up to reduced setpoint" },
+      { "enumValue": 2, "desc": "Up to protection setpoint" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "790": {
+    "name": "Optimum start control max forward shift",
+    "dataType_name": "MINUTES",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "min"
+  },
+  "791": {
+    "name": "Optimum stop control max forward shift",
+    "dataType_name": "MINUTES",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "min"
+  },
+  "794": {
+    "name": "Heat up gradient",
+    "dataType_name": "GRADIENT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "min/K"
+  },
+  "800": {
+    "name": "Start  room temp reduced setpoint raising",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "801": {
+    "name": "End room temp reduced setpoint raising",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "810": {
+    "name": "Frost protection for plant heat cicuit pump",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "820": {
+    "name": "Pump heating circuit overheat protection",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "830": {
+    "name": "Temp boost mixing valve heat circuit",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "834": {
+    "name": "Actuator running time heat circuit",
+    "dataType_name": "SECONDS_WORD",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "s"
+  },
+  "850": {
+    "name": "Flooring plaster dry up function",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "Functional heating" },
+      { "enumValue": 2, "desc": "Curing heating" },
+      { "enumValue": 3, "desc": "Functional and curing heating" },
+      { "enumValue": 4, "desc": "Curing and functional heating" },
+      { "enumValue": 5, "desc": "Manually" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "851": {
+    "name": "Floor setpoint manually",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "855": {
+    "name": "Flow temp setpoint flooring plaster dry up",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "856": {
+    "name": "Flooring plaster dry up day",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "857": {
+    "name": "Floor curing days fulfilled",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "900": {
+    "name": "Operating mode changeover",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "None" },
+      { "enumValue": 1, "desc": "Protection" },
+      { "enumValue": 2, "desc": "Reduced" },
+      { "enumValue": 3, "desc": "Comfort" },
+      { "enumValue": 4, "desc": "Automatic" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  }
+}

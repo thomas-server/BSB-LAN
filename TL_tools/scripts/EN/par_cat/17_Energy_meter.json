@@ -1,0 +1,1614 @@
+{
+  "3090": {
+    "name": "Pulse count heat",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "None" },
+      { "enumValue": 1, "desc": "With input H1" },
+      { "enumValue": 5, "desc": "With input H21 module 1" },
+      { "enumValue": 6, "desc": "With input H21 module 2" },
+      { "enumValue": 7, "desc": "With input H21 module 3" },
+      { "enumValue": 8, "desc": "With input H22 module 1" },
+      { "enumValue": 9, "desc": "With input H22 module 2" },
+      { "enumValue": 10, "desc": "With input H22 module 3" },
+      { "enumValue": 11, "desc": "With input H3" },
+      { "enumValue": 12, "desc": "With input H31" },
+      { "enumValue": 13, "desc": "With input H32" },
+      { "enumValue": 14, "desc": "With input H33" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "3092": {
+    "name": "Pulse unit heat",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "None" },
+      { "enumValue": 1, "desc": "kWh" },
+      { "enumValue": 2, "desc": "Liter" },
+      { "enumValue": 3, "desc": "m3" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "3093": {
+    "name": "Pulse value heat numer",
+    "dataType_name": "UINT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "3094": {
+    "name": "Pulse value heat denom",
+    "dataType_name": "UINT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "3095": {
+    "name": "Flow measurement heat",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "None" },
+      { "enumValue": 1, "desc": "With input H1" },
+      { "enumValue": 2, "desc": "With input H2 module 1" },
+      { "enumValue": 3, "desc": "With input H2 module 2" },
+      { "enumValue": 4, "desc": "With input H2 module 3" },
+      { "enumValue": 5, "desc": "With input H21 module 1" },
+      { "enumValue": 6, "desc": "With input H21 module 2" },
+      { "enumValue": 7, "desc": "With input H21 module 3" },
+      { "enumValue": 8, "desc": "With input H22 module 1" },
+      { "enumValue": 9, "desc": "With input H22 module 2" },
+      { "enumValue": 10, "desc": "With input H22 module 3" },
+      { "enumValue": 11, "desc": "With input H3" },
+      { "enumValue": 12, "desc": "With input H31" },
+      { "enumValue": 13, "desc": "With input H32" },
+      { "enumValue": 14, "desc": "With input H33" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "3097": {
+    "name": "Flow heating",
+    "dataType_name": "LITERPERHOUR",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "l/h"
+  },
+  "3098": {
+    "name": "Flow DHW",
+    "dataType_name": "LITERPERHOUR",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "l/h"
+  },
+  "3100": {
+    "name": "Pulse count energy",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "None" },
+      { "enumValue": 1, "desc": "With input H1" },
+      { "enumValue": 5, "desc": "With input H21 module 1" },
+      { "enumValue": 6, "desc": "With input H21 module 2" },
+      { "enumValue": 7, "desc": "With input H21 module 3" },
+      { "enumValue": 8, "desc": "With input H22 module 1" },
+      { "enumValue": 9, "desc": "With input H22 module 2" },
+      { "enumValue": 10, "desc": "With input H22 module 3" },
+      { "enumValue": 11, "desc": "With input H3" },
+      { "enumValue": 12, "desc": "With input H31" },
+      { "enumValue": 13, "desc": "With input H32" },
+      { "enumValue": 14, "desc": "With input H33" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "3102": {
+    "name": "Pulse unit energy",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "None" },
+      { "enumValue": 1, "desc": "kWh" },
+      { "enumValue": 3, "desc": "m3" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "3103": {
+    "name": "Pulse value energy numer",
+    "dataType_name": "UINT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "3104": {
+    "name": "Pulse value energy denom",
+    "dataType_name": "UINT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "3106": {
+    "name": "Mean gas energy content",
+    "dataType_name": "ENERGY_CONTENT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "kWh/m³"
+  },
+  "3108": {
+    "name": "Electrical source output",
+    "dataType_name": "POWER_WORD100",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.01,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "kW"
+  },
+  "3109": {
+    "name": "Count el imm heater flow",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "None" },
+      { "enumValue": 1, "desc": "Heat delivered" },
+      { "enumValue": 2, "desc": "Energy brought in" },
+      { "enumValue": 3, "desc": "Both" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "3110": {
+    "name": "Heat delivered ",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3112": {
+    "name": "Source heat absorbed",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3113": {
+    "name": "Energy brought in ",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3116": {
+    "name": "Performance factor",
+    "dataType_name": "UINT100",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.01,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3119": {
+    "name": "Fixed day yearly perf fact",
+    "dataType_name": "DATETIME",
+    "dataType_family": "DTTM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 5,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "3120": {
+    "name": "Yearly perf factor 1",
+    "dataType_name": "UINT100",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.01,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3120.1": {
+    "name": "Fixed day 1",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3122": {
+    "name": "Heat delivered DHW 1",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3123": {
+    "name": "Refrigeration delivered 1",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3124": {
+    "name": "Energy brought in heating 1",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3125": {
+    "name": "Energy brought in DHW 1",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3126": {
+    "name": "Energy brought in cooling 1",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3127": {
+    "name": "Yearly perf factor 2",
+    "dataType_name": "UINT100",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.01,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3127.1": {
+    "name": "Fixed day 2",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3128": {
+    "name": "Heat delivered heating 2",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3129": {
+    "name": "Heat delivered DHW 2",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3130": {
+    "name": "Refrigeration delivered 2",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3131": {
+    "name": "Energy brought in heating 2",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3132": {
+    "name": "Energy brought in DHW 2",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3133": {
+    "name": "Energy brought in cooling 2",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3134": {
+    "name": "Yearly perf factor 3",
+    "dataType_name": "UINT100",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.01,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3134.1": {
+    "name": "Fixed day 3",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3135": {
+    "name": "Heat delivered heating 3",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3136": {
+    "name": "Heat delivered DHW 3",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3137": {
+    "name": "Refrigeration delivered 3",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3138": {
+    "name": "Energy brought in heating 3",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3139": {
+    "name": "Energy brought in DHW 3",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3140": {
+    "name": "Energy brought in cooling 3",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3141": {
+    "name": "Yearly perf factor 4",
+    "dataType_name": "UINT100",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.01,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3141.1": {
+    "name": "Fixed day 4",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3142": {
+    "name": "Heat delivered heating 4",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3143": {
+    "name": "Heat delivered DHW 4",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3144": {
+    "name": "Refrigeration delivered 4",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3145": {
+    "name": "Energy brought in heating 4",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3146": {
+    "name": "Energy brought in DHW 4",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3147": {
+    "name": "Energy brought in cooling 4",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3148": {
+    "name": "Yearly perf factor 5",
+    "dataType_name": "UINT100",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.01,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3148.1": {
+    "name": "Fixed day 5",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3149": {
+    "name": "Heat delivered heating 5",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3150": {
+    "name": "Heat delivered DHW 5",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3151": {
+    "name": "Refrigeration delivered 5",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3152": {
+    "name": "Energy brought in heating 5",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3153": {
+    "name": "Energy brought in DHW 5",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3154": {
+    "name": "Energy brought in cooling 5",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3155": {
+    "name": "Yearly perf factor 6",
+    "dataType_name": "UINT100",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.01,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3155.1": {
+    "name": "Fixed day 6",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3156": {
+    "name": "Heat delivered heating 6",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3157": {
+    "name": "Heat delivered DHW 6",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3158": {
+    "name": "Refrigeration delivered 6",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3159": {
+    "name": "Energy brought in heating 6",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3160": {
+    "name": "Energy brought in DHW 6",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3161": {
+    "name": "Energy brought in cooling 6",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3162": {
+    "name": "Yearly perf factor 7",
+    "dataType_name": "UINT100",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.01,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3162.1": {
+    "name": "Fixed day 7",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3163": {
+    "name": "Heat delivered heating 7",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3164": {
+    "name": "Heat delivered DHW 7",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3165": {
+    "name": "Refrigeration delivered 7",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3166": {
+    "name": "Energy brought in heating 7",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3167": {
+    "name": "Energy brought in DHW 7",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3168": {
+    "name": "Energy brought in cooling 7",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3169": {
+    "name": "Yearly perf factor 8",
+    "dataType_name": "UINT100",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.01,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3169.1": {
+    "name": "Fixed day 8",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3170": {
+    "name": "Heat delivered heating 8",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3171": {
+    "name": "Heat delivered DHW 8",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3172": {
+    "name": "Refrigeration delivered 8",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3173": {
+    "name": "Energy brought in heating 8",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3174": {
+    "name": "Energy brought in DHW 8",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3175": {
+    "name": "Energy brought in cooling 8",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3176": {
+    "name": "Yearly perf factor 9",
+    "dataType_name": "UINT100",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.01,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3176.1": {
+    "name": "Fixed day 9",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3177": {
+    "name": "Heat delivered heating 9",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3178": {
+    "name": "Heat delivered DHW 9",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3179": {
+    "name": "Refrigeration delivered 9",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3180": {
+    "name": "Energy brought in heating 9",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3181": {
+    "name": "Energy brought in DHW 9",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3182": {
+    "name": "Energy brought in cooling 9",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3183": {
+    "name": "Yearly perf factor 10",
+    "dataType_name": "UINT100",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.01,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3183.1": {
+    "name": "Fixed day 10",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3184": {
+    "name": "Heat delivered heating 10",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3185": {
+    "name": "Heat delivered DHW 10",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3186": {
+    "name": "Refrigeration delivered 10",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3187": {
+    "name": "Energy brought in heating 10",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3188": {
+    "name": "Energy brought in DHW 10",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3189": {
+    "name": "Energy brought in cooling 10",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "3190": {
+    "name": "Reset fixed day storage",
+    "dataType_name": "YESNO",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "No" },
+      { "enumValue": 1, "desc": "Yes" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "3192": {
+    "name": "Count el imm heater DHW",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "None" },
+      { "enumValue": 1, "desc": "Heat delivered" },
+      { "enumValue": 2, "desc": "Energy brought in" },
+      { "enumValue": 3, "desc": "Both" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "3193": {
+    "name": "Count el imm heater buffer",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "None" },
+      { "enumValue": 1, "desc": "Heat delivered" },
+      { "enumValue": 2, "desc": "Energy brought in" },
+      { "enumValue": 3, "desc": "Both" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "3195": {
+    "name": "Electric pump power heating",
+    "dataType_name": "POWER_WORD100",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.01,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "kW"
+  },
+  "3196": {
+    "name": "Electric pump power DHW",
+    "dataType_name": "POWER_WORD100",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.01,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "kW"
+  },
+  "3197": {
+    "name": "Electric power compressor",
+    "dataType_name": "POWER_WORD100",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.01,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "kW"
+  },
+  "3264": {
+    "name": "Energy price high-tariff",
+    "dataType_name": "UINT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "3265": {
+    "name": "Energy price low-tariff/smart grid wish",
+    "dataType_name": "UINT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "3266": {
+    "name": "Energy price smart grid imposed",
+    "dataType_name": "UINT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "3267": {
+    "name": "Energy price with alternative source",
+    "dataType_name": "UINT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "3511": {
+    "name": "Power range, lower limit (Pmin)",
+    "dataType_name": "PERCENT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "%"
+  }
+}

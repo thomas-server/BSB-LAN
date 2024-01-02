@@ -1,0 +1,157 @@
+{
+  "5020": {
+    "name": "DHW flow setpoint boost",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "5024": {
+    "name": "DHW switching differential",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "5030": {
+    "name": "DHW charging time limitation",
+    "dataType_name": "MINUTES_WORD",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "min"
+  },
+  "5055": {
+    "name": "DHW storage tank return cooling temperature",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "5057": {
+    "name": "DHW storage tank return cooling Collector",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "Summer" },
+      { "enumValue": 2, "desc": "Always" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "5061": {
+    "name": "DHW electric immersion heater release",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 1, "desc": "24h/day" },
+      { "enumValue": 2, "desc": "DHW release" },
+      { "enumValue": 3, "desc": "Time switch program 4" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "5070": {
+    "name": "DHW automatic push",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "5072": {
+    "name": "DHW push",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "…" },
+      { "enumValue": 1, "desc": "Recharging" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "5093": {
+    "name": "Buffer with solar",
+    "dataType_name": "YESNO",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "No" },
+      { "enumValue": 1, "desc": "Yes" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "5700": {
+    "name": "Plant diagram selection",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  }
+}

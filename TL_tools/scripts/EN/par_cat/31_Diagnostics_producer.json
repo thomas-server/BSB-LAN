@@ -1,0 +1,395 @@
+{
+  "8402": {
+    "name": "State electric immersion heater 1 flow",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "8403": {
+    "name": "State electric immersion heater 2 flow",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "8406": {
+    "name": "State condenser pump",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "8407": {
+    "name": "Speed of condensor pump",
+    "dataType_name": "PERCENT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "%"
+  },
+  "8410": {
+    "name": "Return temperature heat pump",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8411": {
+    "name": "Setpoint heat pump",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8412": {
+    "name": "Flow temp heat pump",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8413": {
+    "name": "Compressor modulation",
+    "dataType_name": "PERCENT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "%"
+  },
+  "8414": {
+    "name": "Modulation electric flow",
+    "dataType_name": "PERCENT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "%"
+  },
+  "8425": {
+    "name": "Temperature differential condenser",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8450": {
+    "name": "Hours run compressor 1",
+    "dataType_name": "HOURS",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "h"
+  },
+  "8451": {
+    "name": "Start counter compressor 1",
+    "dataType_name": "DWORD",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "8454": {
+    "name": "Locking time heat pump",
+    "dataType_name": "HOURS",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "h"
+  },
+  "8455": {
+    "name": "Counter number of lockings heat pump",
+    "dataType_name": "DWORD",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "8456": {
+    "name": "Hours run electric immersion heater flow HP",
+    "dataType_name": "HOURS",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "h"
+  },
+  "8457": {
+    "name": "Start counter electric immersion heater flow HP",
+    "dataType_name": "DWORD",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "8458": {
+    "name": "Smart grid state",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 1, "desc": "Draw disabled" },
+      { "enumValue": 2, "desc": "Draw free" },
+      { "enumValue": 3, "desc": "Draw wished" },
+      { "enumValue": 4, "desc": "Draw forced" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "8460": {
+    "name": "Heat pump throughput",
+    "dataType_name": "LITERPERMIN",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "l/min"
+  },
+  "8499": {
+    "name": "Status collector pump 1 (Q5)",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "8505": {
+    "name": "Speed collector pump 1",
+    "dataType_name": "PERCENT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "%"
+  },
+  "8510": {
+    "name": "Collector temp 1 actual value (B6)",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8511": {
+    "name": "Collector temp max actual value 1 (B6)",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "8512": {
+    "name": "Collector temp min actual value 1 (B6)",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "8513": {
+    "name": "Temp differential collector 1/DHW",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8515": {
+    "name": "Temp differential collector 1/pool",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8700": {
+    "name": "Outside temp",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  }
+}

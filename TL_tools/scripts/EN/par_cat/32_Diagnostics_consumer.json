@@ -1,0 +1,1288 @@
+{
+  "8701": {
+    "name": "Outside temperature min",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "8702": {
+    "name": "Outside temperature max",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "8703": {
+    "name": "Outside temp attenuated",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "8704": {
+    "name": "Outside temp composite",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8730": {
+    "name": "Status heat circuit pump 1",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "8731": {
+    "name": "Status heat circuit mixing valve 1 opens",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "8732": {
+    "name": "Status heat circuit mixing valve 1 closes",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "8735": {
+    "name": "Heat circuit pump speed HC1",
+    "dataType_name": "PERCENT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "%"
+  },
+  "8740": {
+    "name": "Room temperature actual value 1",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8741": {
+    "name": "Room temperature setpoint 1",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8742": {
+    "name": "Room temperature model 1",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "8743": {
+    "name": "Flow temp actual value heat circuit 1",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8744": {
+    "name": "Flow temp setpoint resulting HC1",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8749": {
+    "name": "Room thermostat heating circuit 1",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "No demand" },
+      { "enumValue": 1, "desc": "Demand" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "8751": {
+    "name": "State cooling circuit pump 1",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "8752": {
+    "name": "State cooling circuit mixing valve 1 opening",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "8753": {
+    "name": "State cooling circuit mixing valve 1 closing",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "8754": {
+    "name": "State diverting valve cooling",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "8756": {
+    "name": "Flow temperature actual value cooling circuit 1",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8757": {
+    "name": "Flow temp setpoint resulting CC1",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8760": {
+    "name": "State heating circuit pump 2",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "8761": {
+    "name": "State heating circuit mixing valve 2 opening",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "8762": {
+    "name": "State heating circuit mixing valve 2 closing",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "8765": {
+    "name": "Heat circuit pump speed HC2",
+    "dataType_name": "PERCENT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "%"
+  },
+  "8770": {
+    "name": "Room temperature actual value 2",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8771": {
+    "name": "Room temperature setpoint 2",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8772": {
+    "name": "Room temperature model 2",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "8773": {
+    "name": "Flow temp actual value heat circuit 2",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8774": {
+    "name": "Flow temp setpoint resulting HC2",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8779": {
+    "name": "Room thermostat heating circuit 2",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "No demand" },
+      { "enumValue": 1, "desc": "Demand" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "8781": {
+    "name": "State cooling circuit pump 2",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "8782": {
+    "name": "State cooling circuit mixing valve 2 opening",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "8783": {
+    "name": "State cooling circuit mixing valve 2 closing",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "8784": {
+    "name": "State diverting valve cooling 2",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "8786": {
+    "name": "Flow temperature actual value cooling circuit 2",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8787": {
+    "name": "Flow temp setpoint resulting CC2",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8801": {
+    "name": "Room temperature setpoint 3",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8803": {
+    "name": "Flow temperature setpoint resulting HC3",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8820": {
+    "name": "State DHW pump",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "8821": {
+    "name": "State electric immersion heater DHW",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "8830": {
+    "name": "DHW temperature actual value top (B3)",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8831": {
+    "name": "DHW temperature setpoint current",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8832": {
+    "name": "DHW temperature actual value bottom (B31)",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8840": {
+    "name": "Hours run DHW pump",
+    "dataType_name": "HOURS",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "h"
+  },
+  "8841": {
+    "name": "Start counter DHW pump",
+    "dataType_name": "DWORD",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "8842": {
+    "name": "Hours run Electric immersion heater DHW",
+    "dataType_name": "HOURS",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "h"
+  },
+  "8843": {
+    "name": "Start counter electric immersion heater DHW",
+    "dataType_name": "DWORD",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "8852": {
+    "name": "DHW consumption temp",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8895": {
+    "name": "Flow temp setp swimming pool",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8900": {
+    "name": "Actual value of the swimming pool temp B13",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8901": {
+    "name": "Setpoint temperature swimming pool",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8930": {
+    "name": "Precontroller actual value",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8931": {
+    "name": "Precontroller setpoint",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8937": {
+    "name": "Ventilation stage 1",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "stage 1" },
+      { "enumValue": 2, "desc": "stage 2" },
+      { "enumValue": 3, "desc": "stage 3" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "8942": {
+    "name": "Ventilation stage 2",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "stage 1" },
+      { "enumValue": 2, "desc": "stage 2" },
+      { "enumValue": 3, "desc": "stage 3" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "8947": {
+    "name": "Ventilation stage 3",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "stage 1" },
+      { "enumValue": 2, "desc": "stage 2" },
+      { "enumValue": 3, "desc": "stage 3" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "8950": {
+    "name": "Segment flow temperature actual value",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8951": {
+    "name": "Segment flow temperature setpoint",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8957": {
+    "name": "Common flow setp refrig",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8980": {
+    "name": "Buffer temp actual value top (B4)",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "8981": {
+    "name": "Buffer storage tank setpoint",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "9005": {
+    "name": "Water pressure 1",
+    "dataType_name": "PRESSURE_WORD",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "bar"
+  },
+  "9006": {
+    "name": "Water pressure 2",
+    "dataType_name": "PRESSURE_WORD",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "bar"
+  },
+  "9009": {
+    "name": "Water pressure 3",
+    "dataType_name": "PRESSURE_WORD",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "bar"
+  },
+  "9010": {
+    "name": "Room temp measurement 1",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "9011": {
+    "name": "Room temp measurement 2",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "9031": {
+    "name": "State multifunctional relay (QX1)",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "9032": {
+    "name": "State multifunctional relay (QX2)",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "9033": {
+    "name": "State multifunctional relay (QX3)",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "9034": {
+    "name": "State multifunctional relay (QX4)",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "9035": {
+    "name": "State multifunctional relay (QX5)",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "9050": {
+    "name": "State multifunctional relay (QX21 Modul 1)",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "9051": {
+    "name": "State multifunctional relay (QX22 Modul 1)",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "9052": {
+    "name": "State multifunctional relay (QX23 Modul 1)",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "9053": {
+    "name": "State multifunctional relay (QX21 Modul 2)",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "9054": {
+    "name": "State multifunctional relay (QX22 Modul 2)",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "9055": {
+    "name": "State multifunctional relay (QX23 Modul 2)",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "9056": {
+    "name": "State multifunctional relay (QX21 Modul 3)",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "9057": {
+    "name": "State multifunctional relay (QX22 Modul 3)",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "9058": {
+    "name": "State multifunctional relay (QX23 Modul 3)",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "9071": {
+    "name": "Relay output QX31",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "9072": {
+    "name": "Relay output QX32",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "9073": {
+    "name": "Relay output QX33",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "9074": {
+    "name": "Relay output QX34",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "9075": {
+    "name": "Relay output QX35",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  }
+}

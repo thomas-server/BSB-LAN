@@ -1,0 +1,311 @@
+{
+  "1600": {
+    "name": "Operating mode",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" },
+      { "enumValue": 2, "desc": "Eco" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "1601": {
+    "name": "Optg mode selection Eco",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "None" },
+      { "enumValue": 1, "desc": "---" },
+      { "enumValue": 2, "desc": "DHW storage tank" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "1610": {
+    "name": "DHW temperature nominal setpoint",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "1612": {
+    "name": "DHW temperature reduced setpoint",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "1614": {
+    "name": "DHW temperature nominal setpoint max",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "1620": {
+    "name": "DHW release",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "24h/day" },
+      { "enumValue": 1, "desc": "All timeswitch programs Heat-/Cooling circuit" },
+      { "enumValue": 2, "desc": "Time switch program 4" },
+      { "enumValue": 3, "desc": "Low-tariff" },
+      { "enumValue": 4, "desc": "Time switch program 4 or Low-tariff" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "1630": {
+    "name": "DHW charging priority",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Absolute" },
+      { "enumValue": 1, "desc": "Shifting" },
+      { "enumValue": 2, "desc": "None (parallel)" },
+      { "enumValue": 3, "desc": "Shifting, absolute" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "1640": {
+    "name": "Legionella function",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "Periodically" },
+      { "enumValue": 2, "desc": "Fixed weekday" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "1641": {
+    "name": "Legionella function periodicity",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "1642": {
+    "name": "Legionella function day",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 1, "desc": "Monday" },
+      { "enumValue": 2, "desc": "Tuesday" },
+      { "enumValue": 3, "desc": "Wednesday" },
+      { "enumValue": 4, "desc": "Thursday" },
+      { "enumValue": 5, "desc": "Friday" },
+      { "enumValue": 6, "desc": "Saturday" },
+      { "enumValue": 7, "desc": "Sunday" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "1644": {
+    "name": "Time for legionella function",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "1645": {
+    "name": "Legionella function setpoint",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "1646": {
+    "name": "Dwelling time at legionella function setpoint",
+    "dataType_name": "MINUTES_WORD",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "min"
+  },
+  "1647": {
+    "name": "Circul. pump operation during legionella func",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "1648": {
+    "name": "Legio funct circ temp diff",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "1660": {
+    "name": "DHW circulating pump release",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 1, "desc": "Time switch program HC/CC 3" },
+      { "enumValue": 2, "desc": "DHW release" },
+      { "enumValue": 3, "desc": "Time switch program 4" },
+      { "enumValue": 4, "desc": "Time switch program 5" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "1661": {
+    "name": "DHW circulating pump cycling ",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "1663": {
+    "name": "DHW circulating setpoint",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "1680": {
+    "name": "Operating mode changeover",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "None" },
+      { "enumValue": 1, "desc": "Off" },
+      { "enumValue": 2, "desc": "On" },
+      { "enumValue": 3, "desc": "Eco" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "541": {
+    "name": "Monday",
+    "dataType_name": "TIMEPROG",
+    "dataType_family": "TMPR",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 9,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "542": {
+    "name": "Tuesday",
+    "dataType_name": "TIMEPROG",
+    "dataType_family": "TMPR",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 9,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "543": {
+    "name": "Wednesday",
+    "dataType_name": "TIMEPROG",
+    "dataType_family": "TMPR",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 9,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "544": {
+    "name": "Thursday",
+    "dataType_name": "TIMEPROG",
+    "dataType_family": "TMPR",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 9,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "545": {
+    "name": "Friday",
+    "dataType_name": "TIMEPROG",
+    "dataType_family": "TMPR",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 9,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "546": {
+    "name": "Saturday",
+    "dataType_name": "TIMEPROG",
+    "dataType_family": "TMPR",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 9,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "547": {
+    "name": "Sunday",
+    "dataType_name": "TIMEPROG",
+    "dataType_family": "TMPR",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 9,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "556": {
+    "name": "Standard values TSP",
+    "dataType_name": "YESNO",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "No" },
+      { "enumValue": 1, "desc": "Yes" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  }
+}

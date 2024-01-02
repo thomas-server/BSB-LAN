@@ -1,0 +1,969 @@
+{
+  "15000": {
+    "name": "Betriebsart",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Automatisch" },
+      { "enumValue": 1, "desc": "Manuell" },
+      { "enumValue": 2, "desc": "Off" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15001": {
+    "name": "Präsenztaste",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15002": {
+    "name": "Position Drehknopf",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "15003": {
+    "name": "Verbleibende Ferientage",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15004": {
+    "name": "Komfortsollwert",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "15005": {
+    "name": "Reduziertsollwert",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "15006": {
+    "name": "Frostschutzsollwert",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "15007": {
+    "name": "Sollwert Maximum",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "15008": {
+    "name": "Raumtemperatur",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "15020": {
+    "name": "Trinkwasserladung",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15021": {
+    "name": "Trinkwassertemperatur 1",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "15030": {
+    "name": "Außentemperatur",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "15031": {
+    "name": "Außentemperatur gemischt",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "15032": {
+    "name": "Vorlauftemperatur 1",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "15033": {
+    "name": "Vorlaufsollwert 1",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "15034": {
+    "name": "Mischervorlauftemperatur",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "15035": {
+    "name": "Zieltemperatur",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "°C"
+  },
+  "15036": {
+    "name": "Brennermodulation",
+    "dataType_name": "PERCENT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "%"
+  },
+  "15040": {
+    "name": "Uhrzeit",
+    "dataType_name": "PPS_TIME",
+    "dataType_family": "DWHM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 8,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15041": {
+    "name": "Wochentag",
+    "dataType_name": "WEEKDAY",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 1, "desc": "Montag" },
+      { "enumValue": 2, "desc": "Dienstag" },
+      { "enumValue": 3, "desc": "Mittwoch" },
+      { "enumValue": 4, "desc": "Donnerstag" },
+      { "enumValue": 5, "desc": "Freitag" },
+      { "enumValue": 6, "desc": "Samstag" },
+      { "enumValue": 7, "desc": "Sonntag" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15043": {
+    "name": "Manuelles Heizen",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15044": {
+    "name": "Status Brenner",
+    "dataType_name": "BIT",
+    "dataType_family": "BITS",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 1, "desc": "?" },
+      { "enumValue": 257, "desc": "?" },
+      { "enumValue": 2, "desc": "Auto-Mode: aus" },
+      { "enumValue": 514, "desc": "Auto-Mode: an" },
+      { "enumValue": 4, "desc": "?" },
+      { "enumValue": 1028, "desc": "?" },
+      { "enumValue": 8, "desc": "Pumpe an" },
+      { "enumValue": 2056, "desc": "Pumpe aus" },
+      { "enumValue": 16, "desc": "Kontakt H1: offen" },
+      { "enumValue": 4112, "desc": "Kontakt H1: geschlossen" }
+    ],
+    "isswitch": 0,
+    "dataType": 2,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15045": {
+    "name": "Verbindung unterbrochen",
+    "dataType_name": "YESNO",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "No" },
+      { "enumValue": 1, "desc": "Yes" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "15046": {
+    "name": "QAA Modell",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 82, "desc": "QAA 50" },
+      { "enumValue": 83, "desc": "QAA 70" },
+      { "enumValue": 90, "desc": "QAA 10" },
+      { "enumValue": 55, "desc": "QAA 95" },
+      { "enumValue": 102, "desc": "BMU" },
+      { "enumValue": 234, "desc": "DC225/MCBA/REA70" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15050": {
+    "name": "Heizperiode 1 Montag Start",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15051": {
+    "name": "Heizperiode 1 Montag Ende",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15052": {
+    "name": "Heizperiode 2 Montag Start",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15053": {
+    "name": "Heizperiode 2 Montag Ende",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15054": {
+    "name": "Heizperiode 3 Montag Start",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15055": {
+    "name": "Heizperiode 3 Montag Ende",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15056": {
+    "name": "Heizperiode 1 Dienstag Start",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15057": {
+    "name": "Heizperiode 1 Dienstag Ende",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15058": {
+    "name": "Heizperiode 2 Dienstag Start",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15059": {
+    "name": "Heizperiode 2 Dienstag Ende",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15060": {
+    "name": "Heizperiode 3 Dienstag Start",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15061": {
+    "name": "Heizperiode 3 Dienstag Ende",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15062": {
+    "name": "Heizperiode 1 Mittwoch Start",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15063": {
+    "name": "Heizperiode 1 Mittwoch Ende",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15064": {
+    "name": "Heizperiode 2 Mittwoch Start",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15065": {
+    "name": "Heizperiode 2 Mittwoch Ende",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15066": {
+    "name": "Heizperiode 3 Mittwoch Start",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15067": {
+    "name": "Heizperiode 3 Mittwoch Ende",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15068": {
+    "name": "Heizperiode 1 Donnerstag Start",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15069": {
+    "name": "Heizperiode 1 Donnerstag Ende",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15070": {
+    "name": "Heizperiode 2 Donnerstag Start",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15071": {
+    "name": "Heizperiode 2 Donnerstag Ende",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15072": {
+    "name": "Heizperiode 3 Donnerstag Start",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15073": {
+    "name": "Heizperiode 3 Donnerstag Ende",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15074": {
+    "name": "Heizperiode 1 Freitag Start",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15075": {
+    "name": "Heizperiode 1 Freitag Ende",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15076": {
+    "name": "Heizperiode 2 Freitag Start",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15077": {
+    "name": "Heizperiode 2 Freitag Ende",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15078": {
+    "name": "Heizperiode 3 Freitag Start",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15079": {
+    "name": "Heizperiode 3 Freitag Ende",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15080": {
+    "name": "Heizperiode 1 Samstag Start",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15081": {
+    "name": "Heizperiode 1 Samstag Ende",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15082": {
+    "name": "Heizperiode 2 Samstag Start",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15083": {
+    "name": "Heizperiode 2 Samstag Ende",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15084": {
+    "name": "Heizperiode 3 Samstag Start",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15085": {
+    "name": "Heizperiode 3 Samstag Ende",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15086": {
+    "name": "Heizperiode 1 Sonntag Start",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15087": {
+    "name": "Heizperiode 1 Sonntag Ende",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15088": {
+    "name": "Heizperiode 2 Sonntag Start",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15089": {
+    "name": "Heizperiode 2 Sonntag Ende",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15090": {
+    "name": "Heizperiode 3 Sonntag Start",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "15091": {
+    "name": "Heizperiode 3 Sonntag Ende",
+    "dataType_name": "HOUR_MINUTES",
+    "dataType_family": "HHMM",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 4,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  }
+}

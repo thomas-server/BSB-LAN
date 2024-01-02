@@ -1,0 +1,1777 @@
+{
+  "5700.1": {
+    "name": "Internal state of parameterization 5700",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Changed" },
+      { "enumValue": 1, "desc": "Unchanged" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "5710": {
+    "name": "Heating circuit 1",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "5711": {
+    "name": "Cooling circuit 1",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "4-pipe system cooling" },
+      { "enumValue": 2, "desc": "2-pipe system cooling" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "5715": {
+    "name": "Heating circuit 2",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "5716": {
+    "name": "Cooling circuit 2",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "4-pipe system cooling" },
+      { "enumValue": 2, "desc": "2-pipe system cooling" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "5731": {
+    "name": "DHW actuating device Q3",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "No charging request" },
+      { "enumValue": 1, "desc": "Charging pump" },
+      { "enumValue": 2, "desc": "Diverting valve" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "5740": {
+    "name": "Output el imm heater K6",
+    "dataType_name": "POWER_WORD",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "kW"
+  },
+  "5750": {
+    "name": "Consumer circuit 1",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "Heating" },
+      { "enumValue": 2, "desc": "4-pipe system cooling" },
+      { "enumValue": 3, "desc": "2-pipe system cooling" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "5751": {
+    "name": "Consumer circuit 2",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "Heating" },
+      { "enumValue": 2, "desc": "4-pipe system cooling" },
+      { "enumValue": 3, "desc": "2-pipe system cooling" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "5806": {
+    "name": "Type electric flow",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "None" },
+      { "enumValue": 1, "desc": "3-stage" },
+      { "enumValue": 2, "desc": "2-stage alternative" },
+      { "enumValue": 3, "desc": "2-stage complementary" },
+      { "enumValue": 4, "desc": "Modulating UX" },
+      { "enumValue": 5, "desc": "1-stage" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "5811": {
+    "name": "Output el imm heater K25",
+    "dataType_name": "POWER_WORD",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "kW"
+  },
+  "5813": {
+    "name": "Output el imm heater K26",
+    "dataType_name": "POWER_WORD",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "kW"
+  },
+  "5950": {
+    "name": "Input H1 function selection",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "None" },
+      { "enumValue": 1, "desc": "Operating mode changeover zones+DHW" },
+      { "enumValue": 2, "desc": "Optg mode changeover DHW" },
+      { "enumValue": 3, "desc": "Operating mode changeover zones" },
+      { "enumValue": 4, "desc": "Operating mode changeover zone 1" },
+      { "enumValue": 5, "desc": "Operating mode changeover zone 2" },
+      { "enumValue": 6, "desc": "Operating mode changeover zone 3" },
+      { "enumValue": 8, "desc": "Error/alarm message" },
+      { "enumValue": 9, "desc": "Consumer request VK1" },
+      { "enumValue": 10, "desc": "Consumer request VK2" },
+      { "enumValue": 11, "desc": "Release swi pool source heat" },
+      { "enumValue": 13, "desc": "Release swi pool solar" },
+      { "enumValue": 14, "desc": "Operating level DHW" },
+      { "enumValue": 15, "desc": "Operating level HC1" },
+      { "enumValue": 16, "desc": "Operating level HC2" },
+      { "enumValue": 17, "desc": "Operating level HC3" },
+      { "enumValue": 18, "desc": "Room thermostat HC1" },
+      { "enumValue": 19, "desc": "Room thermostat HC2" },
+      { "enumValue": 20, "desc": "Room thermostat HC3" },
+      { "enumValue": 21, "desc": "DHW flow switch" },
+      { "enumValue": 24, "desc": "Pulse count" },
+      { "enumValue": 26, "desc": "Dewpoint monitor" },
+      { "enumValue": 27, "desc": "Flow temp setp incr hygro" },
+      { "enumValue": 30, "desc": "Switch-on command HP stage 1" },
+      { "enumValue": 35, "desc": "Status info suppl source" },
+      { "enumValue": 36, "desc": "Charg prio DHW sol fuel boil" },
+      { "enumValue": 43, "desc": "Ventilation switch 1" },
+      { "enumValue": 44, "desc": "Ventilation switch 2" },
+      { "enumValue": 45, "desc": "Ventilation switch 3" },
+      { "enumValue": 50, "desc": "Flow measurement Hz" },
+      { "enumValue": 51, "desc": "Consumer request VK1 10V" },
+      { "enumValue": 52, "desc": "Consumer request VK2 10V" },
+      { "enumValue": 54, "desc": "Pressure measurement 10V" },
+      { "enumValue": 55, "desc": "Humidity measurement 10V" },
+      { "enumValue": 56, "desc": "Room temp 10V" },
+      { "enumValue": 59, "desc": "Flow measurement 10V" },
+      { "enumValue": 60, "desc": "Temp measurement 10V" },
+      { "enumValue": 61, "desc": "Air quality measurement 10V" },
+      { "enumValue": 200, "desc": "Used by parameter 6014" },
+      { "enumValue": 201, "desc": "Used by parameter 6015" },
+      { "enumValue": 202, "desc": "Used by parameter 6455" },
+      { "enumValue": 203, "desc": "Used by parameter 7300" },
+      { "enumValue": 204, "desc": "Used by parameter 7375" },
+      { "enumValue": 205, "desc": "Used by parameter 7450" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "5953": {
+    "name": "Input value 1 H1",
+    "dataType_name": "FP1",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "5954": {
+    "name": "Function value 1 H1",
+    "dataType_name": "FP1",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "5955": {
+    "name": "Input value 2 H1",
+    "dataType_name": "FP1",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "5956": {
+    "name": "Function value 2 H1",
+    "dataType_name": "FP1",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "5960": {
+    "name": "Input H3 function selection",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "None" },
+      { "enumValue": 1, "desc": "Operating mode changeover zones+DHW" },
+      { "enumValue": 2, "desc": "Optg mode changeover DHW" },
+      { "enumValue": 3, "desc": "Operating mode changeover zones" },
+      { "enumValue": 4, "desc": "Operating mode changeover zone 1" },
+      { "enumValue": 5, "desc": "Operating mode changeover zone 2" },
+      { "enumValue": 6, "desc": "Operating mode changeover zone 3" },
+      { "enumValue": 8, "desc": "Error/alarm message" },
+      { "enumValue": 9, "desc": "Consumer request VK1" },
+      { "enumValue": 10, "desc": "Consumer request VK2" },
+      { "enumValue": 11, "desc": "Release swi pool source heat" },
+      { "enumValue": 13, "desc": "Release swi pool solar" },
+      { "enumValue": 14, "desc": "Operating level DHW" },
+      { "enumValue": 15, "desc": "Operating level HC1" },
+      { "enumValue": 16, "desc": "Operating level HC2" },
+      { "enumValue": 17, "desc": "Operating level HC3" },
+      { "enumValue": 18, "desc": "Room thermostat HC1" },
+      { "enumValue": 19, "desc": "Room thermostat HC2" },
+      { "enumValue": 20, "desc": "Room thermostat HC3" },
+      { "enumValue": 21, "desc": "DHW flow switch" },
+      { "enumValue": 24, "desc": "Pulse count" },
+      { "enumValue": 26, "desc": "Dewpoint monitor" },
+      { "enumValue": 27, "desc": "Flow temp setp incr hygro" },
+      { "enumValue": 30, "desc": "Switch-on command HP stage 1" },
+      { "enumValue": 35, "desc": "Status info suppl source" },
+      { "enumValue": 36, "desc": "Charg prio DHW sol fuel boil" },
+      { "enumValue": 43, "desc": "Ventilation switch 1" },
+      { "enumValue": 44, "desc": "Ventilation switch 2" },
+      { "enumValue": 45, "desc": "Ventilation switch 3" },
+      { "enumValue": 50, "desc": "Flow measurement Hz" },
+      { "enumValue": 51, "desc": "Consumer request VK1 10V" },
+      { "enumValue": 52, "desc": "Consumer request VK2 10V" },
+      { "enumValue": 54, "desc": "Pressure measurement 10V" },
+      { "enumValue": 55, "desc": "Humidity measurement 10V" },
+      { "enumValue": 56, "desc": "Room temp 10V" },
+      { "enumValue": 59, "desc": "Flow measurement 10V" },
+      { "enumValue": 60, "desc": "Temp measurement 10V" },
+      { "enumValue": 61, "desc": "Air quality measurement 10V" },
+      { "enumValue": 200, "desc": "Used by parameter 6014" },
+      { "enumValue": 201, "desc": "Used by parameter 6015" },
+      { "enumValue": 202, "desc": "Used by parameter 6455" },
+      { "enumValue": 203, "desc": "Used by parameter 7300" },
+      { "enumValue": 204, "desc": "Used by parameter 7375" },
+      { "enumValue": 205, "desc": "Used by parameter 7450" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "5963": {
+    "name": "Input value 1 H3",
+    "dataType_name": "FP1",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "5964": {
+    "name": "Function value1 H3",
+    "dataType_name": "FP1",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "5965": {
+    "name": "Input value 2 H3",
+    "dataType_name": "FP1",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "5966": {
+    "name": "Function value 2 H3",
+    "dataType_name": "FP1",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "5980": {
+    "name": "Function input EX1",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "None" },
+      { "enumValue": 1, "desc": "Electricity supplier lock E6" },
+      { "enumValue": 2, "desc": "Low tariff E5" },
+      { "enumValue": 4, "desc": "Source overload E14" },
+      { "enumValue": 5, "desc": "Pressure switch source E26" },
+      { "enumValue": 6, "desc": "Flow switch source E15" },
+      { "enumValue": 7, "desc": "Flow switch consumer E24" },
+      { "enumValue": 8, "desc": "Defrost manually E17" },
+      { "enumValue": 9, "desc": "Common fault HP E20" },
+      { "enumValue": 10, "desc": "Fault soft starter E25" },
+      { "enumValue": 12, "desc": "Low-pressure switch E9" },
+      { "enumValue": 13, "desc": "High-pressure switch E10" },
+      { "enumValue": 14, "desc": "Compressor 1 overload E11" },
+      { "enumValue": 15, "desc": "Error/alarm message" },
+      { "enumValue": 16, "desc": "Mains supervision E21" },
+      { "enumValue": 18, "desc": "Pressure diff defrost E28" },
+      { "enumValue": 19, "desc": "Druckwächter Quellenzwischenkreis E29" },
+      { "enumValue": 20, "desc": "Strömungswächter Quellenzwischenkreis E30" },
+      { "enumValue": 21, "desc": "Smart Grid E61" },
+      { "enumValue": 22, "desc": "Smart Grid E62" },
+      { "enumValue": 25, "desc": "Optg mode changeover HCs" },
+      { "enumValue": 26, "desc": "DHW Push" },
+      { "enumValue": 27, "desc": "Defrost message E33" },
+      { "enumValue": 28, "desc": "Photovoltaics E64" },
+      { "enumValue": 29, "desc": "SHC error message E34" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "5981": {
+    "name": "Operating action input EX1",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "normal closed" },
+      { "enumValue": 1, "desc": "normal opened" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "5982": {
+    "name": "Function input EX2",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "None" },
+      { "enumValue": 1, "desc": "Electricity supplier lock E6" },
+      { "enumValue": 2, "desc": "Low tariff E5" },
+      { "enumValue": 4, "desc": "Source overload E14" },
+      { "enumValue": 5, "desc": "Pressure switch source E26" },
+      { "enumValue": 6, "desc": "Flow switch source E15" },
+      { "enumValue": 7, "desc": "Flow switch consumer E24" },
+      { "enumValue": 8, "desc": "Defrost manually E17" },
+      { "enumValue": 9, "desc": "Common fault HP E20" },
+      { "enumValue": 10, "desc": "Fault soft starter E25" },
+      { "enumValue": 12, "desc": "Low-pressure switch E9" },
+      { "enumValue": 13, "desc": "High-pressure switch E10" },
+      { "enumValue": 14, "desc": "Compressor 1 overload E11" },
+      { "enumValue": 15, "desc": "Error/alarm message" },
+      { "enumValue": 16, "desc": "Mains supervision E21" },
+      { "enumValue": 18, "desc": "Pressure diff defrost E28" },
+      { "enumValue": 19, "desc": "Druckwächter Quellenzwischenkreis E29" },
+      { "enumValue": 20, "desc": "Strömungswächter Quellenzwischenkreis E30" },
+      { "enumValue": 21, "desc": "Smart Grid E61" },
+      { "enumValue": 22, "desc": "Smart Grid E62" },
+      { "enumValue": 25, "desc": "Optg mode changeover HCs" },
+      { "enumValue": 26, "desc": "DHW Push" },
+      { "enumValue": 27, "desc": "Defrost message E33" },
+      { "enumValue": 28, "desc": "Photovoltaics E64" },
+      { "enumValue": 29, "desc": "SHC error message E34" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "5983": {
+    "name": "Operating action input EX2",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "normal closed" },
+      { "enumValue": 1, "desc": "normal opened" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "5985": {
+    "name": "Operating action input EX3",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "normal closed" },
+      { "enumValue": 1, "desc": "normal opened" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "6098": {
+    "name": "Measured value corr collector sensor 1 (B6)",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "6100": {
+    "name": "Outside temp sensor measuring correction",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "6110": {
+    "name": "Building time constant",
+    "dataType_name": "HOURS_SHORT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "h"
+  },
+  "6117": {
+    "name": "Central setpoint shift",
+    "dataType_name": "TEMP",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "°C"
+  },
+  "6120": {
+    "name": "Frost protection for the plant",
+    "dataType_name": "ONOFF",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "Off" },
+      { "enumValue": 1, "desc": "On" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "6140": {
+    "name": "Water pressure max",
+    "dataType_name": "PRESSURE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "bar"
+  },
+  "6141": {
+    "name": "Water pressure min",
+    "dataType_name": "PRESSURE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "bar"
+  },
+  "6142": {
+    "name": "Water pressure critical min",
+    "dataType_name": "PRESSURE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": "bar"
+  },
+  "6148": {
+    "name": "Static press supervision 1",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "None" },
+      { "enumValue": 1, "desc": "With input H1" },
+      { "enumValue": 2, "desc": "With input H2 module 1" },
+      { "enumValue": 3, "desc": "With input H2 module 2" },
+      { "enumValue": 4, "desc": "With input H2 module 3" },
+      { "enumValue": 5, "desc": "With input H21 module 1" },
+      { "enumValue": 6, "desc": "With input H21 module 2" },
+      { "enumValue": 7, "desc": "With input H21 module 3" },
+      { "enumValue": 8, "desc": "With input H22 module 1" },
+      { "enumValue": 9, "desc": "With input H22 module 2" },
+      { "enumValue": 10, "desc": "With input H22 module 3" },
+      { "enumValue": 11, "desc": "With input H3" },
+      { "enumValue": 12, "desc": "With input H31" },
+      { "enumValue": 13, "desc": "With input H32" },
+      { "enumValue": 14, "desc": "With input H33" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "6200": {
+    "name": "Store sensor",
+    "dataType_name": "YESNO",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "No" },
+      { "enumValue": 1, "desc": "Yes" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "6201": {
+    "name": "Delete sensors",
+    "dataType_name": "YESNO",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "No" },
+      { "enumValue": 1, "desc": "Yes" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "6204": {
+    "name": "Store parameter",
+    "dataType_name": "YESNO",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "No" },
+      { "enumValue": 1, "desc": "Yes" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "6205": {
+    "name": "Reset parameter",
+    "dataType_name": "YESNO",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 0, "desc": "No" },
+      { "enumValue": 1, "desc": "Yes" }
+    ],
+    "isswitch": 1,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "6212": {
+    "name": "Control number heat generation 1",
+    "dataType_name": "DWORD",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6213": {
+    "name": "Control number heat generation 2",
+    "dataType_name": "DWORD",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6215": {
+    "name": "Control number storage tank",
+    "dataType_name": "DWORD",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6217": {
+    "name": "Control number heating circuits",
+    "dataType_name": "DWORD",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6220": {
+    "name": "Device SW version",
+    "dataType_name": "FP1",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6221": {
+    "name": "Development index",
+    "dataType_name": "UINT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6222": {
+    "name": "Device operating hours",
+    "dataType_name": "HOURS",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": "h"
+  },
+  "6224": {
+    "name": "Device identification",
+    "dataType_name": "STRING",
+    "dataType_family": "STRN",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "dataType": 7,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6225": {
+    "name": "Device family",
+    "dataType_name": "UINT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6226": {
+    "name": "Device variant",
+    "dataType_name": "UINT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6227": {
+    "name": "Device OV version",
+    "dataType_name": "UINT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6228": {
+    "name": "Bootloader version",
+    "dataType_name": "UINT10",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6229": {
+    "name": "Eeprom version",
+    "dataType_name": "FP1",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6300": {
+    "name": "Info 1 OEM",
+    "dataType_name": "UINT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6301": {
+    "name": "Info 2 OEM",
+    "dataType_name": "UINT",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6375": {
+    "name": "Relay output QX35",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "None" },
+      { "enumValue": 2, "desc": "Process reversing valve Y22" },
+      { "enumValue": 3, "desc": "Hot-gas temperature setpoint K31" },
+      { "enumValue": 4, "desc": "Electric immersion heater 1 flow K25" },
+      { "enumValue": 5, "desc": "Electric immersion heater 2 flow K26" },
+      { "enumValue": 6, "desc": "Diverting valve cooling source Y28" },
+      { "enumValue": 7, "desc": "Primary pump Q14" },
+      { "enumValue": 8, "desc": "Cascade pump Q25" },
+      { "enumValue": 9, "desc": "Heat generation lock Y4" },
+      { "enumValue": 10, "desc": "Electric immersion heater DHW K6" },
+      { "enumValue": 11, "desc": "Circulating pump Q4" },
+      { "enumValue": 12, "desc": "Storage transfer pump Q11" },
+      { "enumValue": 13, "desc": "DHW intermediate circuit pump Q33" },
+      { "enumValue": 14, "desc": "DHW stirring pump Q35" },
+      { "enumValue": 15, "desc": "Collector pump Q5" },
+      { "enumValue": 16, "desc": "Collector pump 2 Q16" },
+      { "enumValue": 17, "desc": "Solar pump external exchanger K9" },
+      { "enumValue": 18, "desc": "Solar actuator buffer K8" },
+      { "enumValue": 19, "desc": "Solar actuator pool K18" },
+      { "enumValue": 20, "desc": "Electric immersion heater buffer K16" },
+      { "enumValue": 21, "desc": "Cons circuit pump VK1 Q15" },
+      { "enumValue": 22, "desc": "Cons circuit pump VK2 Q18" },
+      { "enumValue": 23, "desc": "Swimming pool pump Q19" },
+      { "enumValue": 24, "desc": "Heating circuit pump HC3 Q20" },
+      { "enumValue": 25, "desc": "2nd pump speed HC1 Q21" },
+      { "enumValue": 26, "desc": "2nd pump speed HC2 Q22" },
+      { "enumValue": 27, "desc": "2nd pump speed HC3 Q23" },
+      { "enumValue": 28, "desc": "Diverting valve heat-/cool circuit 1 Y21" },
+      { "enumValue": 29, "desc": "Air dehumidifier K29" },
+      { "enumValue": 30, "desc": "Heat demand K27" },
+      { "enumValue": 31, "desc": "Cool demand K28" },
+      { "enumValue": 32, "desc": "Alarm output K10" },
+      { "enumValue": 33, "desc": "Time switch program 5 K13" },
+      { "enumValue": 34, "desc": "Heat circuit pump HC1 Q2" },
+      { "enumValue": 35, "desc": "DHW actuator Q3" },
+      { "enumValue": 36, "desc": "Source pump Q8/fan K19" },
+      { "enumValue": 37, "desc": "Condenser pump Q9" },
+      { "enumValue": 38, "desc": "Compressor 1 K1" },
+      { "enumValue": 39, "desc": "Suppl source control K32" },
+      { "enumValue": 41, "desc": "Heat circuit pump HC2 Q6" },
+      { "enumValue": 42, "desc": "Instant heater ctrl elem Q34" },
+      { "enumValue": 44, "desc": "Common flow valve Y13" },
+      { "enumValue": 45, "desc": "Diverting valve heat-/cool circuit 2 Y45" },
+      { "enumValue": 46, "desc": "Diverting valve heat-/cool circuit 3 Y46" },
+      { "enumValue": 47, "desc": "Cooling circ pump CC1 Q24" },
+      { "enumValue": 48, "desc": "Cooling circ pump CC2 Q28" },
+      { "enumValue": 49, "desc": "Cooling circ pump CC3 Q29" },
+      { "enumValue": 50, "desc": "Solid fuel boiler pump Q10" },
+      { "enumValue": 51, "desc": "Flue gas relay K17" },
+      { "enumValue": 52, "desc": "Assisted firing fan K30" },
+      { "enumValue": 53, "desc": "Crankcase heater K40" },
+      { "enumValue": 54, "desc": "Drip tray heater K41" },
+      { "enumValue": 55, "desc": "Valve evaporator K81" },
+      { "enumValue": 56, "desc": "Valve EVI K82" },
+      { "enumValue": 57, "desc": "Valve injection capillary K83" },
+      { "enumValue": 59, "desc": "Delta-T-controller 1 K21" },
+      { "enumValue": 60, "desc": "Delta-T-controller 2 K22" },
+      { "enumValue": 61, "desc": "Ventilation fan 1 K51" },
+      { "enumValue": 62, "desc": "Ventilation fan 2 K52" },
+      { "enumValue": 63, "desc": "Ventilation fan 3 K53" },
+      { "enumValue": 64, "desc": "Ventilation bypass 1 K54" },
+      { "enumValue": 65, "desc": "Ventilation bypass 2 K55" },
+      { "enumValue": 66, "desc": "Ventilation bypass 3 K56" },
+      { "enumValue": 67, "desc": "Outside air temperature control Q17" },
+      { "enumValue": 68, "desc": "Source intermediate circuit pump Q81" },
+      { "enumValue": 69, "desc": "Source intermediate diverting valve Y81" },
+      { "enumValue": 70, "desc": "DHW heat pump K33" },
+      { "enumValue": 71, "desc": "System pump 2 Q44" },
+      { "enumValue": 72, "desc": "Diverting valve cooling condenser Y27" },
+      { "enumValue": 73, "desc": "Diverting valve cooling flow Y29" },
+      { "enumValue": 74, "desc": "Condenser reversing valve Y91" },
+      { "enumValue": 75, "desc": "Buffer reversing valve Y47" },
+      { "enumValue": 76, "desc": "Status information heating K42" },
+      { "enumValue": 77, "desc": "Status information cooling K43" },
+      { "enumValue": 78, "desc": "Status information DHW charging K44" },
+      { "enumValue": 79, "desc": "Heating/Cooling circuit pump 1 Q2" },
+      { "enumValue": 80, "desc": "Heating/Cooling circuit pump 2 Q6" },
+      { "enumValue": 81, "desc": "Heating/Cooling circuit pump 3 Q20" },
+      { "enumValue": 82, "desc": "Status information generation K45" },
+      { "enumValue": 83, "desc": "Fault information generation K46" },
+      { "enumValue": 200, "desc": "Used by parameter 6014" },
+      { "enumValue": 201, "desc": "Used by parameter 6015" },
+      { "enumValue": 202, "desc": "Used by parameter 6455" },
+      { "enumValue": 203, "desc": "Used by parameter 7300" },
+      { "enumValue": 204, "desc": "Used by parameter 7375" },
+      { "enumValue": 205, "desc": "Used by parameter 7450" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "6400": {
+    "name": "Function input H31",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "None" },
+      { "enumValue": 1, "desc": "Operating mode changeover zones+DHW" },
+      { "enumValue": 2, "desc": "Optg mode changeover DHW" },
+      { "enumValue": 3, "desc": "Operating mode changeover zones" },
+      { "enumValue": 4, "desc": "Operating mode changeover zone 1" },
+      { "enumValue": 5, "desc": "Operating mode changeover zone 2" },
+      { "enumValue": 6, "desc": "Operating mode changeover zone 3" },
+      { "enumValue": 8, "desc": "Error/alarm message" },
+      { "enumValue": 9, "desc": "Consumer request VK1" },
+      { "enumValue": 10, "desc": "Consumer request VK2" },
+      { "enumValue": 11, "desc": "Release swi pool source heat" },
+      { "enumValue": 13, "desc": "Release swi pool solar" },
+      { "enumValue": 14, "desc": "Operating level DHW" },
+      { "enumValue": 15, "desc": "Operating level HC1" },
+      { "enumValue": 16, "desc": "Operating level HC2" },
+      { "enumValue": 17, "desc": "Operating level HC3" },
+      { "enumValue": 18, "desc": "Room thermostat HC1" },
+      { "enumValue": 19, "desc": "Room thermostat HC2" },
+      { "enumValue": 20, "desc": "Room thermostat HC3" },
+      { "enumValue": 21, "desc": "DHW flow switch" },
+      { "enumValue": 24, "desc": "Pulse count" },
+      { "enumValue": 26, "desc": "Dewpoint monitor" },
+      { "enumValue": 27, "desc": "Flow temp setp incr hygro" },
+      { "enumValue": 30, "desc": "Switch-on command HP stage 1" },
+      { "enumValue": 35, "desc": "Status info suppl source" },
+      { "enumValue": 36, "desc": "Charg prio DHW sol fuel boil" },
+      { "enumValue": 43, "desc": "Ventilation switch 1" },
+      { "enumValue": 44, "desc": "Ventilation switch 2" },
+      { "enumValue": 45, "desc": "Ventilation switch 3" },
+      { "enumValue": 50, "desc": "Flow measurement Hz" },
+      { "enumValue": 51, "desc": "Consumer request VK1 10V" },
+      { "enumValue": 52, "desc": "Consumer request VK2 10V" },
+      { "enumValue": 54, "desc": "Pressure measurement 10V" },
+      { "enumValue": 55, "desc": "Humidity measurement 10V" },
+      { "enumValue": 56, "desc": "Room temp 10V" },
+      { "enumValue": 59, "desc": "Flow measurement 10V" },
+      { "enumValue": 60, "desc": "Temp measurement 10V" },
+      { "enumValue": 61, "desc": "Air quality measurement 10V" },
+      { "enumValue": 200, "desc": "Used by parameter 6014" },
+      { "enumValue": 201, "desc": "Used by parameter 6015" },
+      { "enumValue": 202, "desc": "Used by parameter 6455" },
+      { "enumValue": 203, "desc": "Used by parameter 7300" },
+      { "enumValue": 204, "desc": "Used by parameter 7375" },
+      { "enumValue": 205, "desc": "Used by parameter 7450" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "6403": {
+    "name": "Input value 1 H31",
+    "dataType_name": "FP1",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "6404": {
+    "name": "Funct value 1 H31",
+    "dataType_name": "FP1",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "6405": {
+    "name": "Input value 2 H31",
+    "dataType_name": "FP1",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "6406": {
+    "name": "Funct value 2 H31",
+    "dataType_name": "FP1",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "6410": {
+    "name": "Function input H32",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "None" },
+      { "enumValue": 1, "desc": "Operating mode changeover zones+DHW" },
+      { "enumValue": 2, "desc": "Optg mode changeover DHW" },
+      { "enumValue": 3, "desc": "Operating mode changeover zones" },
+      { "enumValue": 4, "desc": "Operating mode changeover zone 1" },
+      { "enumValue": 5, "desc": "Operating mode changeover zone 2" },
+      { "enumValue": 6, "desc": "Operating mode changeover zone 3" },
+      { "enumValue": 8, "desc": "Error/alarm message" },
+      { "enumValue": 9, "desc": "Consumer request VK1" },
+      { "enumValue": 10, "desc": "Consumer request VK2" },
+      { "enumValue": 11, "desc": "Release swi pool source heat" },
+      { "enumValue": 13, "desc": "Release swi pool solar" },
+      { "enumValue": 14, "desc": "Operating level DHW" },
+      { "enumValue": 15, "desc": "Operating level HC1" },
+      { "enumValue": 16, "desc": "Operating level HC2" },
+      { "enumValue": 17, "desc": "Operating level HC3" },
+      { "enumValue": 18, "desc": "Room thermostat HC1" },
+      { "enumValue": 19, "desc": "Room thermostat HC2" },
+      { "enumValue": 20, "desc": "Room thermostat HC3" },
+      { "enumValue": 21, "desc": "DHW flow switch" },
+      { "enumValue": 24, "desc": "Pulse count" },
+      { "enumValue": 26, "desc": "Dewpoint monitor" },
+      { "enumValue": 27, "desc": "Flow temp setp incr hygro" },
+      { "enumValue": 30, "desc": "Switch-on command HP stage 1" },
+      { "enumValue": 35, "desc": "Status info suppl source" },
+      { "enumValue": 36, "desc": "Charg prio DHW sol fuel boil" },
+      { "enumValue": 43, "desc": "Ventilation switch 1" },
+      { "enumValue": 44, "desc": "Ventilation switch 2" },
+      { "enumValue": 45, "desc": "Ventilation switch 3" },
+      { "enumValue": 50, "desc": "Flow measurement Hz" },
+      { "enumValue": 51, "desc": "Consumer request VK1 10V" },
+      { "enumValue": 52, "desc": "Consumer request VK2 10V" },
+      { "enumValue": 54, "desc": "Pressure measurement 10V" },
+      { "enumValue": 55, "desc": "Humidity measurement 10V" },
+      { "enumValue": 56, "desc": "Room temp 10V" },
+      { "enumValue": 59, "desc": "Flow measurement 10V" },
+      { "enumValue": 60, "desc": "Temp measurement 10V" },
+      { "enumValue": 61, "desc": "Air quality measurement 10V" },
+      { "enumValue": 200, "desc": "Used by parameter 6014" },
+      { "enumValue": 201, "desc": "Used by parameter 6015" },
+      { "enumValue": 202, "desc": "Used by parameter 6455" },
+      { "enumValue": 203, "desc": "Used by parameter 7300" },
+      { "enumValue": 204, "desc": "Used by parameter 7375" },
+      { "enumValue": 205, "desc": "Used by parameter 7450" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "6413": {
+    "name": "Input value 1 H32",
+    "dataType_name": "FP1",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "6414": {
+    "name": "Funct value 1 H32",
+    "dataType_name": "FP1",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "6415": {
+    "name": "Input value 2 H32",
+    "dataType_name": "FP1",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "6416": {
+    "name": "Funct value 2 H32",
+    "dataType_name": "FP1",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 0.1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "6420": {
+    "name": "Function input H33",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "None" },
+      { "enumValue": 1, "desc": "Optg mode change HCs+DHW" },
+      { "enumValue": 2, "desc": "Optg mode changeover DHW" },
+      { "enumValue": 3, "desc": "Optg mode changeover HCs" },
+      { "enumValue": 4, "desc": "Optg mode changeover HC1" },
+      { "enumValue": 5, "desc": "Optg mode changeover HC2" },
+      { "enumValue": 8, "desc": "Error/alarm message" },
+      { "enumValue": 11, "desc": "Release swi pool source heat" },
+      { "enumValue": 13, "desc": "Release swi pool solar" },
+      { "enumValue": 26, "desc": "Dewpoint monitor" },
+      { "enumValue": 27, "desc": "Flow temp setp incr hygro" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "6421": {
+    "name": "Contact type H33",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "normal closed" },
+      { "enumValue": 1, "desc": "normal opened" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "6455": {
+    "name": "Function mixing valve group 31",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "None" },
+      { "enumValue": 1, "desc": "Multifunctional" },
+      { "enumValue": 2, "desc": "Heating circuit 1" },
+      { "enumValue": 3, "desc": "Heating circuit 2" },
+      { "enumValue": 4, "desc": "Heating circuit 3" },
+      { "enumValue": 7, "desc": "Primary contr/system pump" },
+      { "enumValue": 8, "desc": "DHW primary controller" },
+      { "enumValue": 9, "desc": "Instantaneous DHW heater" },
+      { "enumValue": 11, "desc": "Cooling circuit 1" },
+      { "enumValue": 12, "desc": "Heating circ/cooling circ 1" },
+      { "enumValue": 14, "desc": "Ret temp contr sol fuel boil" },
+      { "enumValue": 16, "desc": "Cooling circuit 2" },
+      { "enumValue": 17, "desc": "Heating circ/cooling circ 2" },
+      { "enumValue": 18, "desc": "Cooling circuit 3" },
+      { "enumValue": 19, "desc": "Heating circ/cooling circ 3" },
+      { "enumValue": 20, "desc": "DHW interm circuit controller" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "6570": {
+    "name": "Partial diagram heat circuit 1",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6571": {
+    "name": "Partial diagram cooling circuit 1",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6572": {
+    "name": "Partial diagram heat circuit 2",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6573": {
+    "name": "Partial diagram cooling circuit 2",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6574": {
+    "name": "Partial diagram heat circuit 3",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6575": {
+    "name": "Partial diagram cooling circuit 3",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6576": {
+    "name": "Partial diagram ventilation 1",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6577": {
+    "name": "Partial diagram ventilation 2",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6578": {
+    "name": "Partial diagram ventilation 3",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6579": {
+    "name": "Partial diagram Consumer circuit 1",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6580": {
+    "name": "Partial diagram Consumer circuit 2",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6581": {
+    "name": "Partial diagram swimming pool circuit",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6582": {
+    "name": "Partial diagram swimming pool",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6583": {
+    "name": "Partial diagram converter",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6584": {
+    "name": "Partial diagram converter 2",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6586": {
+    "name": "Selection of partial diagram heat pump",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6587": {
+    "name": "Partial diagram suppl source",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6588": {
+    "name": "Partial diagram hydraulic balancing",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6589": {
+    "name": "Cascade status",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Inactive" },
+      { "enumValue": 1, "desc": "Active" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6590": {
+    "name": "Partial diagram solar collector",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6591": {
+    "name": "Partial diagram solid fuel boiler",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6592": {
+    "name": "Partial diagram buffer",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6593": {
+    "name": "Partial diagram dhw storage",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6594": {
+    "name": "Partial diagram instantaneous heater",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 1,
+    "readwrite": 1,
+    "unit": ""
+  },
+  "6600": {
+    "name": "Device address",
+    "dataType_name": "BYTE",
+    "dataType_family": "VALS",
+    "destination": "0",
+    "possibleValues": [
+
+    ],
+    "isswitch": 0,
+    "precision": 1,
+    "dataType": 0,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  }
+}

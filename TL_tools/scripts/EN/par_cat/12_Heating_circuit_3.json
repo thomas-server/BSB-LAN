@@ -1,0 +1,71 @@
+{
+  "1300": {
+    "name": "Operating mode",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Protection" },
+      { "enumValue": 1, "desc": "Automatic" },
+      { "enumValue": 2, "desc": "Reduced" },
+      { "enumValue": 3, "desc": "Comfort" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "1301": {
+    "name": "Warmer / Cooler",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Cooler" },
+      { "enumValue": 1, "desc": "…" },
+      { "enumValue": 2, "desc": "Warmer" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "1301.1": {
+    "name": "Temporarily warmer",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Cooler" },
+      { "enumValue": 1, "desc": "…" },
+      { "enumValue": 2, "desc": "Warmer" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  },
+  "1301.2": {
+    "name": "Temporarily cooler",
+    "dataType_name": "ENUM",
+    "dataType_family": "ENUM",
+    "destination": "0",
+    "possibleValues": [
+      { "enumValue": 65535, "desc": "---" },
+      { "enumValue": 0, "desc": "Cooler" },
+      { "enumValue": 1, "desc": "…" },
+      { "enumValue": 2, "desc": "Warmer" }
+    ],
+    "isswitch": 0,
+    "dataType": 1,
+    "readonly": 0,
+    "readwrite": 0,
+    "unit": ""
+  }
+}
